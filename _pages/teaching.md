@@ -48,7 +48,7 @@ I have been actively involved in [Teaching](#teaching) and [Research Supervision
 *Tutor, Monash University, Australia*
 -  I  delivered the weekly conceptual and practical tutorials  to the students.
 <!-- - Topic covered- f -->
--  I helped in designing new practial assignments in this course.
+-  I helped in designing new practial assignments.
 -  I assisted lecturer in creating new teaching materials, quizzes, and setup evaluation procedures. 
 
 ##### **2020-2021: Internet Technologies** ([COMP90007](https://handbook.unimelb.edu.au/2020/subjects/comp90007))

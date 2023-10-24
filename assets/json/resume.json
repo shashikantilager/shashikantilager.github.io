@@ -1,44 +1,81 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shashikant Ilager",
+    "label": "Postdoc Researcher",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "shashikant.ilager@tuwien.ac.at",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "url": "https://shashikantilager.github.io",
+    "summary": "I work in the area of sustainable computing, focusing on Green-IT solutions, making the large scale distributed systems energy efficient and carbon neutral",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Room HE0214, Favoritenstrasse 11",
+      "postalCode": "1040",
+      "city": "Vienna",
+      "countryCode": "AT",
+      "country": "Austria"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "shashi_ilager",
+        "url": "https://twitter.com/shashi_ilager"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "HPC Research Group, Institute of Information Systems Engineering, Vienna University of Technology (TU Wien)",
+      "position": "Postdoc Researcher",
+      "url": "https://informatics.tuwien.ac.at/people/shashikant-ilager",
+      "startDate": "August 2021",
+      "endDate": "current",
+      "summary": "",
       "highlights": [
-        "Relativity"
+        "Computational sustainability, Edge AI"
+      ]
+    }
+    {
+      "name": "CLOUDS Lab, School of Computing and Information Systems, University of Melbourne, Australia",
+      "position": "Research Assistant",
+      "url": "https://informatics.tuwien.ac.at/people/shashikant-ilager",
+      "startDate": "March 2021",
+      "endDate": "July 2021",
+      "summary": "",
+      "highlights": [
+        "Computational sustainability, Edge AI"
+      ]
+    }
+    {
+      "name": "School of Computing and Information Systems, University of Melbourne, Australia",
+      "position": "Teaching Assistant (TA)/ Head Tutor (casual)",
+      "url": "https://informatics.tuwien.ac.at/people/shashikant-ilager",
+      "startDate": "June 2018",
+      "endDate": "July 2021",
+      "summary": "",
+      "highlights": [
+        "Distributed System Course (COMP90015)",
+        "Internet Computing Course (COMP90007)"
+      ]
+    }
+    {
+      "name": "Pointed Squares Ltd, Hyderabad, India",
+      "position": "Software Engineering Intern",
+      "url": "https://informatics.tuwien.ac.at/people/shashikant-ilager",
+      "startDate": "June 2018",
+      "endDate": "July 2021",
+      "summary": "",
+      "highlights": [
+        "Distributed System Course (COMP90015)",
+        "Internet Computing Course (COMP90007)"
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": ["Linux System Administrator, SCIS, UOH, India, Jul 2015 - Jun 2016",
+                "Hadoop System Administrator, GIAN Workshop, UOH India, August 2016"
+  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "Test",
       "url": "https://www.uzh.ch/",
       "area": "Software Development",
       "studyType": "PhD",
@@ -52,7 +89,7 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
+      "title": "Test Award",
       "date": "1921-11-01",
       "awarder": "Royal Swedish Academy of Sciences",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
@@ -62,6 +99,10 @@
   "publications": [],
   "skills": [],
   "languages": [
+    {
+      "language": "Kannada",
+      "fluency": "Native speaker"
+    },
     {
       "language": "German",
       "fluency": "Native speaker"

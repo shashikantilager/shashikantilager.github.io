@@ -16,7 +16,7 @@
       year: 2017-2021
       description: 
         - Thesis- Machine Learning-based Energy and Thermal Efficient Resource Management Algorithms for Cloud Data Centres. 
-        - Thesis Advisor- <a href="http://testing.test123.org/xx3/landing.gsp">Professor. Rajkumar Buyya</a>
+        - Thesis Advisor- <a href="http://www.buyya.com">Professor. Rajkumar Buyya</a>
         # - I worked on 
         - My PhD thesis was recongnized with <span style= "color:blue;">IEEE TCCLD Outstanding PhD Thesis Award</span>  in 2022.
     - title: Master of Technology (M.Tech), Computer Science
@@ -34,7 +34,7 @@
   type: time_table
   contents:
     - title: Postdoc Researcher
-      institution: <a href="https://informatics.tuwien.ac.at/people/shashikant-ilager">HPC Research Group </a>, Institute of Information Systems Engineering, Vienna University of Technology (TU Wien)
+      institution: <a href="https://informatics.tuwien.ac.at/people/shashikant-ilager">HPC Research Group </a>, with <a href="https://www.ec.tuwien.ac.at/~ivona/"> Prof. Ivona Brandic</a>, Institute of Information Systems Engineering, Vienna University of Technology (TU Wien)
       year: 08/2021- 
       description:
         - I am doing research on computational sustainability and Edge AI

@@ -1,5 +1,5 @@
 # Home page
-This is my personal home page built based on [al-folio](https://github.com/alshedivat/al-folio) theme, a  static website  generator.
+This is my personal home page built based on [al-folio](https://githudoclreb.com/alshedivat/al-folio) theme, a  static website  generator.
 
 ## License
 

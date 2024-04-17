@@ -11,6 +11,10 @@ I have been actively involved in [Teaching](#teaching) and [Research Supervision
 <a id="teaching"></a>
 
 ### Teaching
+##### **Summer 2024: Data Intensive Computing** (194.048)
+*Lecturer, Vienna University of Technology (TU Wien), Austria*
+- The course aims to teach students how to: (i) assess and reduce the energy and environmental impact of large scale AI models, and (ii) apply and leverage AI techniques to tackle critical climate change problems.
+-   I am responsible for developing course materials and delivering the lectures, designing and grading the practical assignments and exams.
 
 ##### **Winter 2023: AI/ML in the Era of Climate Change** (194.125)
 *Lecturer, Vienna University of Technology (TU Wien), Austria*
@@ -61,11 +65,13 @@ I have been actively involved in [Teaching](#teaching) and [Research Supervision
 <a id="research-supervision"></a>
 
 ### Research Supervision
-
+- **Mr. Paul. J. Maliakel**, *PhD Thesis*,	Resource efficient ML Serving at Scale, TU Wien, Austria, 2024 - now.
 - **Mr. Tharindu Bandara**, *PhD Thesis*, Carbon-aware Resource Management in Edge-Cloud Systems,
-UniMelb, Australia (remote supervision along with Prof. Raj Buyya and Dr Maria Read), 2021- now.
+UniMelb, Australia (remote supervision along with Prof. Raj Buyya and Dr Maria Read), 2021 - now.
+- **Mr. Paul. J. Maliakel**, *Master Thesis*,	Achieving Sustainable Federated Edge Analytics by Using Incomplete Data, TU Wien, Austria, 2023.
 - **Ms. Viktorija Pruckovskaja**, *Master Thesis*, Performance Analysis of Federated Learning Algorithms
 for Industrial use cases, TU Wien + AIT, Austria, November 2023.
+- **Daniel Hofstätter**, *Semester Project*, Symbolic Representation of Data on Edge, TU Wien, 2023.
 - **Ms. Meerzhan Kanatbekova**, *Master Thesis*, Symbolic Data Representation of Multi-Media Data on
 Edge, TU Wien, May 2022- November 2022.
 - **Mr. Mayank Jha**, *Master Thesis*, Statistical Characterization of a Cloud Data Center, TU Wien +

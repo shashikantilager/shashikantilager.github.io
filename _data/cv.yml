@@ -17,7 +17,6 @@
       description: 
         - Thesis- Machine Learning-based Energy and Thermal Efficient Resource Management Algorithms for Cloud Data Centres. 
         - Thesis Advisor- <a href="http://www.buyya.com">Professor. Rajkumar Buyya</a>
-        # - I worked on 
         - My PhD thesis was recongnized with <span style= "color:blue;">IEEE TCCLD Outstanding PhD Thesis Award</span>  in 2022.
     - title: Master of Technology (M.Tech), Computer Science
       institution: University of Hyderabad (UOH), India
@@ -33,17 +32,27 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Assistant Professor
+      institution: Informatics Institute (Ivl), University of Amsterdam (UvA), Netherlands
+      year: 10/2024-now
+      description:
+        - I am the member of MNS research group at Ivl, UvA.
     - title: Postdoc Researcher
       institution: <a href="https://informatics.tuwien.ac.at/people/shashikant-ilager">HPC Research Group </a>, with <a href="https://www.ec.tuwien.ac.at/~ivona/"> Prof. Ivona Brandic</a>, Institute of Information Systems Engineering, Vienna University of Technology (TU Wien)
-      year: 08/2021- 
+      year: 08/2021- 09/2024
       description:
-        - I am doing research on computational sustainability and Edge AI
-        - I am also  teaching multiple Master courses. Please check out more details on my teching [page](pages/teaching.md).
+        - I did research on computational sustainability and Edge AI
+        - I taught multiple Master courses. Please check out more details on my teching [page](pages/teaching.md).
+    - title: Visiting Research Scientist
+      institution: IBM T.J. Watson Research Center, York Town Heights, New York, USA.
+      year: 06/2024-08/2024
+      description:
+        - I am hosted by "Hybrid Cloud Infrastructure team". I worked on developing energy efficient  LLM inference serving platforms. 
     - title: Visiting Research Scientist
       institution: INRIA, IMT Atlantique, Nantes, France
       year: 10/2023-12/2023
       description:
-        - I am hosted by <a href="https://daniel-balouek.com/">Daniel Balouek</a>,  I am working on developing end to end edge application QoS gurantee using SAGE testbed.  
+        - I am hosted by <a href="https://daniel-balouek.com/">Daniel Balouek</a>,  I worked on developing end to end edge application QoS gurantee using SAGE testbed.  
 
     - title: Research Assistant
       institution: CLOUDS Lab, FEIT, University of Melbourne, Australia
@@ -135,38 +144,38 @@
     #   items:
     #     - <strong>GATE  scholarship </strong>, UGC NET, India, 2014.     
 
-- title: Presentation and Talks
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - Data-Centric Edge-AI,  @IEEE Services,  Chicago, USA, 2023 (online). 
-    - year: 2022
-      items:
-        - DEMon- Decentralized Monitoring in Highly Volatile Edge,  @IEEE UCC 22,  Washington, USA, 2022.
-    - year: 2021
-      items:
-        - Programming Abstractions in Cloud, Invited Guest Lecture for Internet Technology Course (Semester 2, 2021), @Faculty of Engineering and Information Technology, University of Melbourne, Australia, September 2021 (online).
-        - A Data-Driven Frequency Scaling and Energy Efficient Scheduling on GPUs, @IEEE CCGRID, May 2021 (online).
-        - A Data-Driven Frequency Scaling and Energy Efficient Scheduling on GPUs, @Vienna University of Technology (TU Wien), March , 2021 (online)
-        - Learning-based Energy and Thermal Efficient Resource Management Algorithms for Cloud Data Centres, @ University of Adelaide, Australia, April 2021.
+# - title: Presentation and Talks
+#   type: time_table
+#   contents:
+#     - year: 2023
+#       items:
+#         - Data-Centric Edge-AI,  @IEEE Services,  Chicago, USA, 2023 (online). 
+#     - year: 2022
+#       items:
+#         - DEMon- Decentralized Monitoring in Highly Volatile Edge,  @IEEE UCC 22,  Washington, USA, 2022.
+#     - year: 2021
+#       items:
+#         - Programming Abstractions in Cloud, Invited Guest Lecture for Internet Technology Course (Semester 2, 2021), @Faculty of Engineering and Information Technology, University of Melbourne, Australia, September 2021 (online).
+#         - A Data-Driven Frequency Scaling and Energy Efficient Scheduling on GPUs, @IEEE CCGRID, May 2021 (online).
+#         - A Data-Driven Frequency Scaling and Energy Efficient Scheduling on GPUs, @Vienna University of Technology (TU Wien), March , 2021 (online)
+#         - Learning-based Energy and Thermal Efficient Resource Management Algorithms for Cloud Data Centres, @ University of Adelaide, Australia, April 2021.
 
-    - year: 2020
-      items:
-        - Artificial Intelligence (AI)-Centric Management of Resources in Modern Distributed Computing Systems, @IEEE Cloud Summit, Harrisbury, Pennsylvania, USA, October 21-22, 2020 (online).
-        - Programming the Cloud- Towards Serverless Computing, Invited Talk, Faculty Development Workshops, @GMR Institute of Technology, AP, India, June 2020 (online).
-    # - year: 2019
-    #   items:
-    - year: 2018
-      items:
-        - ETAS- Energy and Thermal-Aware Dynamic Virtual Machine Consolidation in Cloud Data Center with Proactive Hotspot Mitigation, @6th CIS Annual Doctoral Colloquium at the University of Melbourne, Melbourne, Australia, July 2018.
-    - year: 2017
-      items:
-        - Scalable MapReduce-based Fuzzy Min-Max Neural Network for Pattern Classification, @18th International Conference on Distributed Computing and Networking (ICDCN, 2017), Hyderabad, India, January 2017.
-    - year: 2016
-      items:
-        - Heterogeneous Parallel Computing on Clouds using Aneka PaaS Tool, Invited Talk, One Week National Level Research-Oriented Workshop on Cloud and GPU Computing (Cloud-GPU 2016), Jawaharlal Nehru Technological University (JNTU), Kakinada, India, August 8-12, 2016.
-        - Heterogeneous Parallel Computing using CUDA Toolkit, Invited Talk, CVR College of Engineering, Hyderabad, India, March 2016.     
+#     - year: 2020
+#       items:
+#         - Artificial Intelligence (AI)-Centric Management of Resources in Modern Distributed Computing Systems, @IEEE Cloud Summit, Harrisbury, Pennsylvania, USA, October 21-22, 2020 (online).
+#         - Programming the Cloud- Towards Serverless Computing, Invited Talk, Faculty Development Workshops, @GMR Institute of Technology, AP, India, June 2020 (online).
+#     # - year: 2019
+#     #   items:
+#     - year: 2018
+#       items:
+#         - ETAS- Energy and Thermal-Aware Dynamic Virtual Machine Consolidation in Cloud Data Center with Proactive Hotspot Mitigation, @6th CIS Annual Doctoral Colloquium at the University of Melbourne, Melbourne, Australia, July 2018.
+#     - year: 2017
+#       items:
+#         - Scalable MapReduce-based Fuzzy Min-Max Neural Network for Pattern Classification, @18th International Conference on Distributed Computing and Networking (ICDCN, 2017), Hyderabad, India, January 2017.
+#     - year: 2016
+#       items:
+#         - Heterogeneous Parallel Computing on Clouds using Aneka PaaS Tool, Invited Talk, One Week National Level Research-Oriented Workshop on Cloud and GPU Computing (Cloud-GPU 2016), Jawaharlal Nehru Technological University (JNTU), Kakinada, India, August 8-12, 2016.
+#         - Heterogeneous Parallel Computing using CUDA Toolkit, Invited Talk, CVR College of Engineering, Hyderabad, India, March 2016.     
     
 
     

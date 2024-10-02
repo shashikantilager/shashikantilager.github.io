@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
-I have been actively involved in [Teaching](#teaching) and [Research Supervision](#research-supervision) activities. The details can be found on this page. 
+I have been actively involved in [Teaching](#teaching)  activities. The details can be found on this page. 
 
 <a id="teaching"></a>
 
@@ -61,25 +61,3 @@ I have been actively involved in [Teaching](#teaching) and [Research Supervision
 
 ##### **Other Teaching Activities**
 - *Guest Lecture* on `Programming Abstractions in Cloud: From Mesage Passing to Platform as a Service` in Internet Technologies course, UniMelb, Australia (2020S2 and 2021S1).
-
-<a id="research-supervision"></a>
-
-### Research Supervision
-- **Mr. Paul. J. Maliakel**, *PhD Thesis*,	Resource efficient ML Serving at Scale, TU Wien, Austria, 2024 - now.
-- **Mr. Tharindu Bandara**, *PhD Thesis*, Carbon-aware Resource Management in Edge-Cloud Systems,
-UniMelb, Australia (remote supervision along with Prof. Raj Buyya and Dr Maria Read), 2021 - now.
-- **Mr. Paul. J. Maliakel**, *Master Thesis*,	Achieving Sustainable Federated Edge Analytics by Using Incomplete Data, TU Wien, Austria, 2023.
-- **Ms. Viktorija Pruckovskaja**, *Master Thesis*, Performance Analysis of Federated Learning Algorithms
-for Industrial use cases, TU Wien + AIT, Austria, November 2023.
-- **Daniel Hofstätter**, *Semester Project*, Symbolic Representation of Data on Edge, TU Wien, 2023.
-- **Ms. Meerzhan Kanatbekova**, *Master Thesis*, Symbolic Data Representation of Multi-Media Data on
-Edge, TU Wien, May 2022- November 2022.
-- **Mr. Mayank Jha**, *Master Thesis*, Statistical Characterization of a Cloud Data Center, TU Wien +
-University of L’aquila, Italy, Feb-2022 – November 2022.
-- **Mr. Jakob Fahringer**, *Bachelor Thesis*, Decentralized Monitoring in Edge, TU Wien, Feb - October
-2022.
-- **Mr. Shreshth Tuli**, *Semester project*, RL-based Scheduling in Edge-Cloud, UniMelb, Australia, 2020.
-- **Mr. Nipum Basumati**, *Semester project*, RL-based Scheduling in Edge-Cloud, UniMelb, Australia, 2020.
-- **Mr. Tahseen khan**, *Semester project*, Workload Forecasting in Cloud, UniMelb, Australia, 2021.
-- **Ms. Radhika Chhikara**, *Master Thesis*, Parallel Processing of Power-BI Applications using Ankea,
-UniMelb, Australia, Jan 2019- June 2019.

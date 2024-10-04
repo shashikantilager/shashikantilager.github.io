@@ -35,6 +35,7 @@ jobs:
         value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |  
+        sudo apt update
         sudo apt install python3-jupyter
         npm install -g mermaid.cli
         npm install -g purgecss

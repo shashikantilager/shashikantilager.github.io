@@ -33,8 +33,12 @@ jobs:
         valueFile: '_config.yml'
         propertyPath: 'giscus.repo'
         value: ${{ github.repository }}
-    - name: Install and Build 🔧
+    - name: Create and activate virtual environment
       run: |
+        python -m venv venv
+        source venv/bin/activate
+    - name: Install and Build 🔧
+      run: |  
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
         npm install -g purgecss

@@ -33,13 +33,9 @@ jobs:
         valueFile: '_config.yml'
         propertyPath: 'giscus.repo'
         value: ${{ github.repository }}
-    - name: Create and activate virtual environment
-      run: |
-        python3 -m venv venv
-        source venv/bin/activate
     - name: Install and Build 🔧
       run: |  
-        pip3 install --upgrade jupyter
+        sudo apt install python3-jupyter
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production

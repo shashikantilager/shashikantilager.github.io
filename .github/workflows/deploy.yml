@@ -81,18 +81,9 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          sudo apt-get update
-          pip3 install --upgrade jupyter --break-system-packages
+          pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
-
-          pip3 install --upgrade jupyter
-          npm install -g mermaid.cli
-          npm install -g purgecss
-          export JEKYLL_ENV=production
-          bundle exec jekyll build --lsi
-          purgecss -c purgecss.config.js
-           
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

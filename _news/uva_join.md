@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Statrted new position at University of Amsterdam (UvA) as a assistant professor!
+Statrted **new position at University of Amsterdam (UvA)** as an assistant professor!

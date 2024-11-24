@@ -11,9 +11,10 @@ nav_order: 3
 <a id="research-supervision"></a>
 
 ## PhD Thesis
-- **Mr. Paul. J. Maliakel**, *PhD Thesis*,	Resource efficient ML Serving at Scale, TU Wien, Austria, 2024 - present (co-supervision with Prof. Ivona Brandic).
-- **Mr. Tharindu Bandara**, *PhD Thesis*, Carbon-aware Resource Management in Edge-Cloud Systems,
-UniMelb, Australia (remote co-supervision along with Prof. Raj Buyya and Dr Maria Read), 2021 - present.
+
+- **Mr. Paul Daniëlse**, *PhD Thesis*,	Root Cause Analysis in Large Scale Micro Services-based Applications, Netherlands, 2024 - present (co-supervision with Prof. Zhiming Zhao).
+- **Mr. Paul. J. Maliakel**, *PhD Thesis*,	Resource efficient LLM Serving at Scale, TU Wien, Austria, 2024 - present (co-supervision with Prof. Ivona Brandic).
+- **Mr. Tharindu Bandara**, *PhD Thesis*, Carbon-aware Resource Management in Edge-Cloud Systems, UniMelb, Australia (remote co-supervision along with Prof. Raj Buyya and Dr Maria Read), 2021 - present.
 
 ## Master Thesis/ Semester Projects
 <!-- TODO - point to publicaiton or awards at the end , host info with hlink-->
@@ -36,5 +37,4 @@ University of L’aquila, Italy, Feb-2022 – November 2022.
 - **Mr. Shreshth Tuli**, *Semester project*, RL-based Scheduling in Edge-Cloud, UniMelb, Australia, 2020.
 - **Mr. Nipum Basumati**, *Semester project*, RL-based Scheduling in Edge-Cloud, UniMelb, Australia, 2020.
 - **Mr. Tahseen khan**, *Semester project*, Workload Forecasting in Cloud, UniMelb, Australia, 2021.
-- **Ms. Radhika Chhikara**, *Master Thesis*, Parallel Processing of Power-BI Applications using Ankea,
-UniMelb, Australia, Jan 2019- June 2019.
+- **Ms. Radhika Chhikara**, *Master Thesis*, Parallel Processing of Power-BI Applications using Ankea, UniMelb, Australia, Jan 2019- June 2019.

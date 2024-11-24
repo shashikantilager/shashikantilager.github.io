@@ -12,9 +12,9 @@ nav_order: 3
 
 ## PhD Thesis
 
-- **Mr. Paul Daniëlse**, *PhD Thesis*,	Root Cause Analysis in Large Scale Micro Services-based Applications, Netherlands, 2024 - present (co-supervision with Prof. Zhiming Zhao).
+- **Mr. Paul Daniëlse**, *PhD Thesis*,	Root Cause Analysis in Large Scale Micro Services-based Applications, University of Amsterdam (UvA), Netherlands, 2024 - present (co-supervision with Prof. Zhiming Zhao).
 - **Mr. Paul. J. Maliakel**, *PhD Thesis*,	Resource efficient LLM Serving at Scale, TU Wien, Austria, 2024 - present (co-supervision with Prof. Ivona Brandic).
-- **Mr. Tharindu Bandara**, *PhD Thesis*, Carbon-aware Resource Management in Edge-Cloud Systems, UniMelb, Australia (remote co-supervision along with Prof. Raj Buyya and Dr Maria Read), 2021 - present.
+- **Mr. Tharindu Bandara**, *PhD Thesis*, Carbon-aware Resource Management in Edge-Cloud Systems, University of Melbourne (UniMelb), Australia (remote co-supervision along with Prof. Raj Buyya and Dr Maria Read), 2021 - present.
 
 ## Master Thesis/ Semester Projects
 <!-- TODO - point to publicaiton or awards at the end , host info with hlink-->

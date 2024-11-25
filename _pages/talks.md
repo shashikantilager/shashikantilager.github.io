@@ -9,7 +9,7 @@ nav_order: 4
 
 <a id="talks"></a>
 
-- **Invited Talk:** "Data-driven Analysis, Methods, and Algorithms  for Energy Efficient Resource Management in Cloud and Edge Computing Systems", Large Systems group, @ Vrije Universiteit Amsterdam, Oct 2024.  *Host*: [Prof. Alexandru Iosup ](https://research.vu.nl/en/persons/alexandru-iosup)
+- **Invited Talk:** "Data-driven Analysis, Methods, and Algorithms  for Energy Efficient Resource Management in Cloud and Edge Computing Systems", Massivizing Computer Systems group, @ Vrije Universiteit Amsterdam, Oct 2024.  *Host*: [Prof. Alexandru Iosup ](https://research.vu.nl/en/persons/alexandru-iosup)
 
 - **Invited Talk:** "Data-driven Analysis, Methods, and Algorithms  for Energy Efficient Resource Management in Cloud and Edge Computing Systems", Laboratory for Advanced System Software (LASS), University of Massachusetts (UMass), Amherst, USA, Aug 2024. *Host*: [Prof. Prashant Shenoy](https://people.cs.umass.edu/~shenoy/)
 

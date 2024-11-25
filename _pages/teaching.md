@@ -14,13 +14,13 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 ##### **Winter 2024: Large Systems** 
 *Lecturer/Teacher, University of Amsterdam, Netherlands*
-- This is the first course I am teaching after joining UvA.
-- This is the [Master's SNE](https://www.uva.nl/shared-content/programmas/en/masters/security-and-network-engineering/security-and-network-engineering.html?origin=znSrDUT%2BQ5uz6dso72fBmw) course at UvA, which   aims to teach students how to: (i)
+- This is the first course I am teaching after joining UvA, which is a [Master's SNE](https://www.uva.nl/shared-content/programmas/en/masters/security-and-network-engineering/security-and-network-engineering.html?origin=znSrDUT%2BQ5uz6dso72fBmw) course. 
+- The course  covers how to: (i)
 Understand the architecture and design principles of distributed systems (DS).  (ii)  Comprehend virtualization technologies and their implications in large systems. (iii) Configure and manage virtual environments, optimizing resource utilization through virtual machine migrations. (iv) Use tools like Ansible, Puppet, or Chef to provision and manage infrastructure (Infrastructure as Code). (v) Analyze and troubleshoot issues in DS, focusing on consistency, fault tolerance, and system failures. 
 
 ##### **Summer 2024: Data Intensive Computing** (194.048)
 *Lecturer, Vienna University of Technology (TU Wien), Austria*
-- The course aims to teach students how to: (i) assess and reduce the energy and environmental impact of large scale AI models, and (ii) apply and leverage AI techniques to tackle critical climate change problems.
+- The course teaches students how to: (i) assess and reduce the energy and environmental impact of large scale AI models, and (ii) apply and leverage AI techniques to tackle critical climate change problems.
 -   I am responsible for developing course materials and delivering the lectures, designing and grading the practical assignments and exams.
 
 ##### **Winter 2023: AI/ML in the Era of Climate Change** (194.125)

@@ -28,7 +28,24 @@ I am an Assistant Professor at the [Informatics Institute (Ivl)](https://ivi.uva
 
 Before joining UvA, I was a postdoctoral researcher with the [High Performance Computing (HPC)](http://hpc.ec.tuwien.ac.at/) group at the Vienna University of Technology (TU Wien), Austria. I completed my PhD in Computer Science and Engineering from the [CLOUDS Lab](http://clouds.cis.unimelb.edu.au), University of Melbourne, Australia.
 
+<!-- 
+### Research Projects
+I have been working 
+<!--  Mission statement -->
 
+<!-- #### LLMs and energy aware... 
+
+#### Data-driven apporaches for Performance and Energy Efficient   Data Centers 
+Resource Manbagement and Middleware systems
+Charecterization and Data sets.
+
+#### Sustainable Edge AI
+Symbolic representation of data on edge
+
+
+<!-- Be more personal story....  -->
+<!-- Energy aware Edge AI: Designb space explorations... Proteus.  -->
+ <!-- --> 
 
 <!-- I was born in Bagalkot, the southern part of India.  If you are an explorer, find more about this place here. -->
 <!-- <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=tt&d=eMUZY2zUKfla9BczKb9K9Hn4bnzZwL0l1xNBhe3CG6Y&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script> -->

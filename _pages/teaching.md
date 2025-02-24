@@ -12,11 +12,27 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 ### Teaching
 
-##### **Winter 2024: Large Systems** 
+
+
+##### **Semester 2, Period 4-5, 2025: Connecting Your Digital World**
+*Coordinator/Lecturer, University of Amsterdam, Netherlands*
+- This course is part of the Bachelor program [Science, Technology & Innovation (ST&I)](https://studiegids.uva.nl/xmlpages/page/2024-2025/zoek-vak/vak/119932), College of Science.
+- The main goal of the course is to teach students how modern web applications are designed, developed, and operated. Specifically, it covers:
+  - Fundamentals of web systems
+  - Client-side web programming, including HTML, CSS, and JavaScript
+  - Understanding, designing, and building web servers, and backend database systems (MySQL)
+  - Finally, students develop a full stack interactive web application for given use case
+
+
+##### **Semester 1, Period 3, 2024: Large Systems**
 *Lecturer/Teacher, University of Amsterdam, Netherlands*
-- This is the first course I am teaching after joining UvA, which is a [Master's SNE](https://www.uva.nl/shared-content/programmas/en/masters/security-and-network-engineering/security-and-network-engineering.html?origin=znSrDUT%2BQ5uz6dso72fBmw) course. 
-- The course  covers how to: (i)
-Understand the architecture and design principles of distributed systems (DS).  (ii)  Comprehend virtualization technologies and their implications in large systems. (iii) Configure and manage virtual environments, optimizing resource utilization through virtual machine migrations. (iv) Use tools like Ansible, Puppet, or Chef to provision and manage infrastructure (Infrastructure as Code). (v) Analyze and troubleshoot issues in DS, focusing on consistency, fault tolerance, and system failures. 
+- This is the first course I am teaching after joining UvA, which is a [Master's SNE](https://www.uva.nl/shared-content/programmas/en/masters/security-and-network-engineering/security-and-network-engineering.html?origin=znSrDUT%2BQ5uz6dso72fBmw) course.
+- The course covers:
+  - Understanding the architecture and design principles of distributed systems (DS)
+  - Comprehending virtualization technologies and their implications in large systems
+  - Configuring and managing virtual environments, optimizing resource utilization through virtual machine migrations
+  - Using tools like Ansible, Puppet, or Chef to provision and manage infrastructure (Infrastructure as Code)
+  - Analyzing and troubleshooting issues in DS, focusing on consistency, fault tolerance, and system failures
 
 ##### **Summer 2024: Data Intensive Computing** (194.048)
 *Lecturer, Vienna University of Technology (TU Wien), Austria*

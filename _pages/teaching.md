@@ -18,13 +18,15 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 *Coordinator/Lecturer, University of Amsterdam, Netherlands*
 - This course is part of the Bachelor program [Science, Technology & Innovation (ST&I)](https://studiegids.uva.nl/xmlpages/page/2024-2025/zoek-vak/vak/119932), College of Science.
 - The main goal of the course is to teach students how modern web applications are designed, developed, and operated. Specifically, it covers:
-  - Fundamentals of web systems
+  - Fundamentals of networked systems, and digital web systems. 
   - Client-side web programming, including HTML, CSS, and JavaScript
-  - Understanding, designing, and building web servers, and backend database systems (MySQL)
-  - Finally, students develop a full stack interactive web application for given use case
+  - Server-side programming, including modular web server frameworks, e.g., FLASK
+  - Interactive web  and Visualizations
+  - Understanding, designing, and operating backend database systems (MySQL)
+  - Group project to develop a full stack interactive web application for given use case
 
 
-##### **Semester 1, Period 3, 2024: Large Systems**
+##### **Semester 1, Period 2, 2024: Large Systems**
 *Lecturer/Teacher, University of Amsterdam, Netherlands*
 - This is the first course I am teaching after joining UvA, which is a [Master's SNE](https://www.uva.nl/shared-content/programmas/en/masters/security-and-network-engineering/security-and-network-engineering.html?origin=znSrDUT%2BQ5uz6dso72fBmw) course.
 - The course covers:

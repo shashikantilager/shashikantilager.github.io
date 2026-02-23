@@ -8,6 +8,14 @@ nav_order: 4
 ---
 
 <a id="talks"></a>
+<!-- TODO SIG -->
+
+
+- **Invited Talk:** "Towards Sustainable AI: Optimizing Energy and Carbon Footprints in Large-Scale LLM Workloads", DREAMS Lab, @Vrije Universiteit Amsterdam, Jan 2026.  *Host*: [Prof. Yogesh Simmhan](https://cds.iisc.ac.in/faculty/simmhan/)
+
+- **Invited Talk:** "Data Driven Approaches for Energy-aware Application Management in Cloud and Edge Systems", Shenzhen Institutes of Advanced Technology, Chinese Academy Science (SIAT), Shenzhen, China, June 2025.  *Host*: [Minxian XU](https://www.minxianxu.info/)
+
+- **Conference Presentation:**  "GREEN-CODE: Learning to Optimize Energy Efficiency in LLM-based Code Generation", CCGRID, Tromsø, Norway, May  2025.
 
 - **Invited Talk:** "Data-driven Analysis, Methods, and Algorithms  for Energy Efficient Resource Management in Cloud and Edge Computing Systems", Massivizing Computer Systems group, @ Vrije Universiteit Amsterdam, Oct 2024.  *Host*: [Prof. Alexandru Iosup ](https://research.vu.nl/en/persons/alexandru-iosup)
 

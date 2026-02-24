@@ -6,7 +6,7 @@ subtitle:  Assistant Professor, <a href="https://www.uva.nl/en">University of Am
 
 profile:
   align: center
-  image: prof_pic_2024.jpg #prof_pic_shashi1.jpg
+  image: prof_pic_24.jpg #prof_pic_shashi1.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Room L5.21</p>

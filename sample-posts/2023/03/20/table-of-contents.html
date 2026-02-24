@@ -194,13 +194,28 @@
             
           
             
+          
+            
+          
+            
               
                 
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/publications/">Publications
+                
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research
                     
                   </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    
+                      
+                        <a class="dropdown-item " href="/projects/">Projects</a>
+                      
+                    
+                      
+                        <a class="dropdown-item " href="/publications/">Publications</a>
+                      
+                    
+                  </div>
                 </li>
               
             
@@ -676,14 +691,21 @@
         handler: () => {
           window.location.href = "/";
         },
-      },{id: "nav-publications",
-              title: "Publications",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/publications/";
-              },
-            },{id: "nav-teaching",
+      },{id: "dropdown-projects",
+                  title: "Projects",
+                  description: "",
+                  section: "Dropdown",
+                  handler: () => {
+                    window.location.href = "";
+                  },
+                },{id: "dropdown-publications",
+                  title: "Publications",
+                  description: "",
+                  section: "Dropdown",
+                  handler: () => {
+                    window.location.href = "";
+                  },
+                },{id: "nav-teaching",
               title: "Teaching",
               description: "",
               section: "Navigation",
@@ -1093,6 +1115,9 @@
 
 ***ENSURE*** – *ENvironmentally SUstainable digital services and practices for REsearch infrastructures* develops sustainable solutions for European RIs and data centers. (HORIZON-INFRA-2025-01-TECH-01) | ***FUILD-AI*** – *FAIR Liquidity Unifying Interoperable Data and AI* develops AI platforms and stacks for interoperable AI systems. (HORIZON-INFRA-2025-01-EOSC-03)',
           description: "",
+          section: "News",},{id: "news-the-second-edition-of-greensys-https-greensys-org-github-io-workshop-is-moving-to-edinburgh-scotland-and-will-again-be-colocated-with-eurosys-26-we-invite-you-to-submit-your-relevant-work",
+          title: 'The second edition of [GreenSys](https://greensys-org.github.io/workshop/) is moving to Edinburgh, Scotland, and will again be ***colocated with EuroSys 26***. We invite you to submit your relevant work.',
+          description: "",
           section: "News",},{id: "news-our-paper-on-lt-strong-gt-aging-aware-cpu-core-management-for-embodied-carbon-amortization-in-cloud-llm-inference-lt-strong-gt-is-accepted-at-acm-e-energy-2025-arxiv-link-https-arxiv-org-pdf-2501-15829",
           title: 'Our paper on  <strong> Aging aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference </strong> is accepted at ACM e-Energy 2025.  [Arxiv link](https://arxiv.org/pdf/2501.15829)',
           description: "",
@@ -1144,51 +1169,36 @@
           section: "News",},{id: "news-our-paper-on-lt-strong-gt-data-driven-gpu-frequency-scaling-lt-strong-gt-has-recieved-best-paper-award-acm-ieee-ccgrid-20",
           title: 'Our paper on  <strong> data-driven GPU frequency scaling</strong> has recieved `Best paper award` @ ACM/IEEE CCGRID 20.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-              title: 'project 1',
-              description: "with background image",
+          section: "News",},{id: "projects-digital-twins-for-sustainable-data-centers",
+              title: 'Digital Twins for Sustainable Data Centers',
+              description: "Industry Research Grant, Wien IT, TU Wien (Amount: 48k Euro).",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/1_project/";
-                },},{id: "projects-project-2",
-              title: 'project 2',
-              description: "a project with a background image and giscus comments",
+                  window.location.href = "/projects/digital_twins_wienit/";
+                },},{id: "projects-ensure-environmentally-sustainable-digital-services-and-practices-for-research-infrastructures",
+              title: 'ENSURE: ENvironmentally SUstainable digital services and practices for REsearch infrastructures',
+              description: "HE project on sustainable digital services and practices for research infrastructures and data centers.(HORIZON-INFRA-2025-01-TECH-01)",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/2_project/";
-                },},{id: "projects-project-3-with-very-long-name",
-              title: 'project 3 with very long name',
-              description: "a project that redirects to another website",
+                  window.location.href = "/projects/ensure/";
+                },},{id: "projects-fuild-ai-fair-liquidity-unifying-interoperable-data-and-ai",
+              title: 'FUILD-AI: FAIR Liquidity Unifying Interoperable Data and AI',
+              description: "HE project focused on interoperable AI platforms and data, model and AI stacks (HORIZON-INFRA-2025-01-EOSC-03)",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/3_project/";
-                },},{id: "projects-project-4",
-              title: 'project 4',
-              description: "another without an image",
+                  window.location.href = "/projects/fuild-ai/";
+                },},{id: "projects-greendigit-greener-future-digital-research-infrastructures",
+              title: 'GreenDIGIT: Greener Future DIGItal Research Infrastructures',
+              description: "HE project on sustainable digital services and practices for research infrastructures",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/4_project/";
-                },},{id: "projects-project-5",
-              title: 'project 5',
-              description: "a project with a background image",
+                  window.location.href = "/projects/gd/";
+                },},{id: "projects-runtime-optimizations-for-gpugpu-workloads",
+              title: 'Runtime Optimizations for GPUGPU Workloads',
+              description: "Research Cloud Credit Grant, Amazon Web Services (Amount: 3k USD).",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/5_project/";
-                },},{id: "projects-project-6",
-              title: 'project 6',
-              description: "a project with no image",
+                  window.location.href = "/projects/gpgpu_aws/";
+                },},{id: "projects-research-artifact-grant",
+              title: 'Research Artifact Grant',
+              description: "School of Computing and Information Systems, The University of Melbourne (Amount: 5k AUD).",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/6_project/";
-                },},{id: "projects-project-7",
-              title: 'project 7',
-              description: "with background image",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/7_project/";
-                },},{id: "projects-project-8",
-              title: 'project 8',
-              description: "an other project with a background image and giscus comments",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/8_project/";
-                },},{id: "projects-project-9",
-              title: 'project 9',
-              description: "another project with an image 🎉",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/9_project/";
+                  window.location.href = "/projects/research-artifact-grant/";
                 },},{
             id: 'socials-email',
             title: 'Send email',

@@ -197,13 +197,28 @@
             
           
             
+          
+            
+          
+            
               
                 
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/publications/">Publications
+                
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research
                     
                   </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    
+                      
+                        <a class="dropdown-item " href="/projects/">Projects</a>
+                      
+                    
+                      
+                        <a class="dropdown-item " href="/publications/">Publications</a>
+                      
+                    
+                  </div>
                 </li>
               
             
@@ -319,6 +334,25 @@
 
 <h3 id="teaching">Teaching</h3>
 
+<h4 id="2026">2026</h4>
+
+<h5 id="semester-2-period-4-5-2026-connecting-your-digital-world"><strong>Semester 2, Period 4-5, 2026: Connecting Your Digital World</strong></h5>
+<p><em>Coordinator/Lecturer, University of Amsterdam, Netherlands</em></p>
+
+<h4 id="2025">2025</h4>
+
+<h5 id="semester-1-period-2-2025-large-systems"><strong>Semester 1, Period 2, 2025: Large Systems</strong></h5>
+<p><em>Lecturer/Teacher, University of Amsterdam, Netherlands</em>§</p>
+<ul>
+  <li>Course enhancements for 2025:
+    <ul>
+      <li>Introduction to Kubernetes for container orchestration and automation</li>
+      <li>Infrastructure as Code practices using Terraform</li>
+      <li>New capstone group project: end-to-end infrastructure creation, deployment, and management of cloud-native microservice application</li>
+    </ul>
+  </li>
+</ul>
+
 <h5 id="semester-2-period-4-5-2025-connecting-your-digital-world"><strong>Semester 2, Period 4-5, 2025: Connecting Your Digital World</strong></h5>
 <p><em>Coordinator/Lecturer, University of Amsterdam, Netherlands</em></p>
 <ul>
@@ -334,6 +368,8 @@
     </ul>
   </li>
 </ul>
+
+<h4 id="2024">2024</h4>
 
 <h5 id="semester-1-period-2-2024-large-systems"><strong>Semester 1, Period 2, 2024: Large Systems</strong></h5>
 <p><em>Lecturer/Teacher, University of Amsterdam, Netherlands</em></p>
@@ -358,6 +394,8 @@
   <li>I am responsible for developing course materials and delivering the lectures, designing and grading the practical assignments and exams.</li>
 </ul>
 
+<h4 id="2023">2023</h4>
+
 <h5 id="winter-2023-aiml-in-the-era-of-climate-change-194125">
 <strong>Winter 2023: AI/ML in the Era of Climate Change</strong> (194.125)</h5>
 <p><em>Lecturer, Vienna University of Technology (TU Wien), Austria</em></p>
@@ -375,6 +413,8 @@
   <li>Designed, and handled the three practical  assignments on (i) text retrieval with Hadoop, (ii) text analysis and classification with Spark and SparkMLLib, and (iii) edge offloading with AWS.</li>
 </ul>
 
+<h4 id="2022">2022</h4>
+
 <h5 id="winter-2022-aiml-in-the-era-of-climate-change-194125">
 <strong>Winter 2022: AI/ML in the Era of Climate Change</strong> (194.125)</h5>
 <p><em>Lecturer, Vienna University of Technology (TU Wien), Austria</em></p>
@@ -385,6 +425,8 @@
   <li>Designed, implemented and handled two new practical assignments (i) exploring the tradeoffs between energy and performance with model quantization, a technique to reduce the size and complexity of neural networks, and (ii) applying deep learning models to weather forecasting using the LamaH-CE dataset.</li>
 </ul>
 
+<h4 id="2021">2021</h4>
+
 <h5 id="summer-2021-energy-efficient-distributed-systems-194049">
 <strong>Summer 2021: Energy-efficient Distributed Systems</strong> (194.049)</h5>
 <p><em>Lecturer, Vienna University of Technology (TU Wien), Austria</em></p>
@@ -394,6 +436,8 @@
 </ul>
 
 <!-- - Lecturer: Energy-efficient Distributed Systems (EEDS), 2022 Semester 1, Feb 2022- June 2022, Vienna University of Technology (TU Wien), Austria. -->
+
+<h4 id="2021-2018">2021-2018</h4>
 
 <h5 id="2018-2021-distributed-systems-comp90015">
 <strong>2018-2021: Distributed Systems</strong> (<a href="https://handbook.unimelb.edu.au/2019/subjects/comp90015" rel="external nofollow noopener" target="_blank">COMP90015</a>)</h5>
@@ -662,14 +706,21 @@
         handler: () => {
           window.location.href = "/";
         },
-      },{id: "nav-publications",
-              title: "Publications",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/publications/";
-              },
-            },{id: "nav-teaching",
+      },{id: "dropdown-projects",
+                  title: "Projects",
+                  description: "",
+                  section: "Dropdown",
+                  handler: () => {
+                    window.location.href = "";
+                  },
+                },{id: "dropdown-publications",
+                  title: "Publications",
+                  description: "",
+                  section: "Dropdown",
+                  handler: () => {
+                    window.location.href = "";
+                  },
+                },{id: "nav-teaching",
               title: "Teaching",
               description: "",
               section: "Navigation",
@@ -1086,6 +1137,9 @@
   </tbody>
 </table>',
           description: "",
+          section: "News",},{id: "news-the-second-edition-of-lt-a-href-quot-https-greensys-org-github-io-workshop-quot-gt-greensys-lt-a-gt-is-moving-to-edinburgh-scotland-and-will-again-be-lt-strong-gt-lt-em-gt-colocated-with-eurosys-26-lt-em-gt-lt-strong-gt-we-invite-you-to-submit-your-relevant-work",
+          title: 'The second edition of <a href="https://greensys-org.github.io/workshop/">GreenSys</a> is moving to Edinburgh, Scotland, and will again be <strong><em>colocated with EuroSys 26</em></strong>. We invite you to submit your relevant work.',
+          description: "",
           section: "News",},{id: "news-our-paper-on-lt-strong-gt-aging-aware-cpu-core-management-for-embodied-carbon-amortization-in-cloud-llm-inference-lt-strong-gt-is-accepted-at-acm-e-energy-2025-lt-a-href-quot-https-arxiv-org-pdf-2501-15829-quot-gt-arxiv-link-lt-a-gt",
           title: 'Our paper on  <strong> Aging aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference </strong> is accepted at ACM e-Energy 2025.  <a href="https://arxiv.org/pdf/2501.15829">Arxiv link</a>',
           description: "",
@@ -1137,51 +1191,36 @@
           section: "News",},{id: "news-our-paper-on-lt-strong-gt-data-driven-gpu-frequency-scaling-lt-strong-gt-has-recieved-lt-code-class-quot-language-plaintext-highlighter-rouge-quot-gt-best-paper-award-lt-code-gt-acm-ieee-ccgrid-20",
           title: 'Our paper on  <strong> data-driven GPU frequency scaling</strong> has recieved <code class="language-plaintext highlighter-rouge">Best paper award</code> @ ACM/IEEE CCGRID 20.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-              title: 'project 1',
-              description: "with background image",
+          section: "News",},{id: "projects-digital-twins-for-sustainable-data-centers",
+              title: 'Digital Twins for Sustainable Data Centers',
+              description: "Industry Research Grant, Wien IT, TU Wien (Amount: 48k Euro).",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/1_project/";
-                },},{id: "projects-project-2",
-              title: 'project 2',
-              description: "a project with a background image and giscus comments",
+                  window.location.href = "/projects/digital_twins_wienit/";
+                },},{id: "projects-ensure-environmentally-sustainable-digital-services-and-practices-for-research-infrastructures",
+              title: 'ENSURE: ENvironmentally SUstainable digital services and practices for REsearch infrastructures',
+              description: "HE project on sustainable digital services and practices for research infrastructures and data centers.(HORIZON-INFRA-2025-01-TECH-01)",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/2_project/";
-                },},{id: "projects-project-3-with-very-long-name",
-              title: 'project 3 with very long name',
-              description: "a project that redirects to another website",
+                  window.location.href = "/projects/ensure/";
+                },},{id: "projects-fuild-ai-fair-liquidity-unifying-interoperable-data-and-ai",
+              title: 'FUILD-AI: FAIR Liquidity Unifying Interoperable Data and AI',
+              description: "HE project focused on interoperable AI platforms and data, model and AI stacks (HORIZON-INFRA-2025-01-EOSC-03)",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/3_project/";
-                },},{id: "projects-project-4",
-              title: 'project 4',
-              description: "another without an image",
+                  window.location.href = "/projects/fuild-ai/";
+                },},{id: "projects-greendigit-greener-future-digital-research-infrastructures",
+              title: 'GreenDIGIT: Greener Future DIGItal Research Infrastructures',
+              description: "HE project on sustainable digital services and practices for research infrastructures",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/4_project/";
-                },},{id: "projects-project-5",
-              title: 'project 5',
-              description: "a project with a background image",
+                  window.location.href = "/projects/gd/";
+                },},{id: "projects-runtime-optimizations-for-gpugpu-workloads",
+              title: 'Runtime Optimizations for GPUGPU Workloads',
+              description: "Research Cloud Credit Grant, Amazon Web Services (Amount: 3k USD).",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/5_project/";
-                },},{id: "projects-project-6",
-              title: 'project 6',
-              description: "a project with no image",
+                  window.location.href = "/projects/gpgpu_aws/";
+                },},{id: "projects-research-artifact-grant",
+              title: 'Research Artifact Grant',
+              description: "School of Computing and Information Systems, The University of Melbourne (Amount: 5k AUD).",
               section: "Projects",handler: () => {
-                  window.location.href = "/projects/6_project/";
-                },},{id: "projects-project-7",
-              title: 'project 7',
-              description: "with background image",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/7_project/";
-                },},{id: "projects-project-8",
-              title: 'project 8',
-              description: "an other project with a background image and giscus comments",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/8_project/";
-                },},{id: "projects-project-9",
-              title: 'project 9',
-              description: "another project with an image 🎉",
-              section: "Projects",handler: () => {
-                  window.location.href = "/projects/9_project/";
+                  window.location.href = "/projects/research-artifact-grant/";
                 },},{
             id: 'socials-email',
             title: 'Send email',

@@ -1,10 +1,12 @@
----
+<!-- ---
 layout: page
 title: project 1
 description: with background image
 img: assets/img/12.jpg
 importance: 1
 category: work
+role: TBD
+year: 2025
 related_publications: true
 ---
 
@@ -77,5 +79,4 @@ Here's the code for the last row of images above:
   </div>
 </div>
 ```
-
-{% endraw %}
+{% endraw %} -->

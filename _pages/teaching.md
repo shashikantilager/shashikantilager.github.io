@@ -12,6 +12,20 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 ### Teaching
 
+#### 2026
+
+##### **Semester 2, Period 4-5, 2026: Connecting Your Digital World**
+*Coordinator/Lecturer, University of Amsterdam, Netherlands*
+
+
+#### 2025
+
+##### **Semester 1, Period 2, 2025: Large Systems**
+*Lecturer/Teacher, University of Amsterdam, Netherlands*§
+- Course enhancements for 2025:
+  - Introduction to Kubernetes for container orchestration and automation
+  - Infrastructure as Code practices using Terraform
+  - New capstone group project: end-to-end infrastructure creation, deployment, and management of cloud-native microservice application
 
 
 ##### **Semester 2, Period 4-5, 2025: Connecting Your Digital World**
@@ -25,6 +39,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
   - Understanding, designing, and operating backend database systems (MySQL)
   - Group project to develop a full stack interactive web application for given use case
 
+#### 2024
 
 ##### **Semester 1, Period 2, 2024: Large Systems**
 *Lecturer/Teacher, University of Amsterdam, Netherlands*
@@ -41,6 +56,8 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 - The course teaches students how to: (i) assess and reduce the energy and environmental impact of large scale AI models, and (ii) apply and leverage AI techniques to tackle critical climate change problems.
 -   I am responsible for developing course materials and delivering the lectures, designing and grading the practical assignments and exams.
 
+#### 2023
+
 ##### **Winter 2023: AI/ML in the Era of Climate Change** (194.125)
 *Lecturer, Vienna University of Technology (TU Wien), Austria*
 - The course aims to teach students how to: (i) assess and reduce the energy and environmental impact of large scale AI models, and (ii) apply and leverage AI techniques to tackle critical climate change problems.
@@ -52,6 +69,8 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 - Delivered lectures and  evaluated the student assignmetns and exams.
 - Designed, and handled the three practical  assignments on (i) text retrieval with Hadoop, (ii) text analysis and classification with Spark and SparkMLLib, and (iii) edge offloading with AWS.
 
+#### 2022
+
 ##### **Winter 2022: AI/ML in the Era of Climate Change** (194.125)
 *Lecturer, Vienna University of Technology (TU Wien), Austria*
 - I and Prof. Ivona Brandic  created this new Master's course at TU Wien.
@@ -59,12 +78,16 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 - Developed  course syllabus, materials and delivered the lectures,  evaluating the student assignments and exams.
 - Designed, implemented and handled two new practical assignments (i) exploring the tradeoffs between energy and performance with model quantization, a technique to reduce the size and complexity of neural networks, and (ii) applying deep learning models to weather forecasting using the LamaH-CE dataset.
 
+#### 2021
+
 ##### **Summer 2021: Energy-efficient Distributed Systems** (194.049)
 *Lecturer, Vienna University of Technology (TU Wien), Austria*
 - The course covers the foundations of  sustainable computing, energy efficiency in cloud computing and edge computing systems, among others.
 - Delivered lectures, designed and handled the practical assignment on prediction driven workload management in cloud data centres.
 
 <!-- - Lecturer: Energy-efficient Distributed Systems (EEDS), 2022 Semester 1, Feb 2022- June 2022, Vienna University of Technology (TU Wien), Austria. -->
+
+#### 2021-2018
 
 ##### **2018-2021: Distributed Systems** ([COMP90015](https://handbook.unimelb.edu.au/2019/subjects/comp90015))
 *Head Tutor and Tutor, The University of Melbourne, Australia*

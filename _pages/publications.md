@@ -3,8 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-nav: true
-nav_order: 1
+nav: false
 ---
 
 The publications are in reversed chronological order. The  full list of updated  publications can be found on my [Google scholar profile](https://scholar.google.com.au/citations?user=qBnfuW4AAAAJ&hl=en)
@@ -36,6 +35,5 @@ Mobile Edge Computing (MEC), A. Mukherjee, D. De, S. K. Ghosh, and R. Buyya (eds
 GPU PaaS Computation Model in Aneka Cloud Computing Environments, 
 Smart Data: State-of-the-Art Perspectives in Computing and Applications, K. Li, Q. Zhang,
 L. Yang, B. Martino (eds), ISBN-13: 978-1138545588, Chapman & Hall/CRC Press, USA, March 28, 2019.
-
 
 

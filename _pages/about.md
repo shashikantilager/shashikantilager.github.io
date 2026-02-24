@@ -24,12 +24,18 @@ Hello World!
 
 Previously,  I was a postdoctoral researcher at the [High Performance Computing (HPC)  Group](http://hpc.ec.tuwien.ac.at/), Vienna University of Technology (TU Wien), Austria. Prior to that, I got my PhD in Computer Science and Engineering at the [CLOUDS Lab](http://clouds.cis.unimelb.edu.au), University of Melbourne, Australia. -->
 
-I am an Assistant Professor at the [Informatics Institute (Ivl)](https://ivi.uva.nl/),  [University of Amsterdam (UvA)](https://www.uva.nl/en).  I am a  member of the [Multiscale Networked Systems (MNS](https://mns-research.nl/)) group. My research lies at the intersection of distributed systems, energy efficiency, and machine learning. I focus on designing, optimizing, and developing large-scale computing system platforms, such as cloud and edge platforms, to  minimize their environmental and economic costs. My work is grounded in the characterization of distributed systems and their optimization through data-driven learning-centric approaches. Recently, I have been focusing on the sustainability of data-intensive  AI applications   to enhance their performance and energy efficiency.
+I am an Assistant Professor at the [Informatics Institute (IvI)](https://ivi.uva.nl/) at the [University of Amsterdam (UvA)](https://www.uva.nl/en). I am a member of the [Multiscale Networked Systems (MNS)](https://mns-research.nl/) group. My research lies at the intersection of distributed systems, energy efficiency, and machine learning. I focus on designing, optimizing, and developing large-scale computing platforms—such as cloud and edge infrastructures—to minimize their environmental and economic costs. My work is grounded in characterizing distributed systems and optimizing them through data-driven, learning-centric approaches. Recently, I have been exploring the sustainability of data-intensive AI applications to enhance their performance and energy efficiency. My research has been published in leading venues including e-Energy, ASE, ICSOC, EuroPar, CCGRID, and journals such as TPDS, TMC, TC, TSC, TAAS, and TNSM.
 
-Before joining UvA, I was a postdoctoral researcher with the [High Performance Computing (HPC)](http://hpc.ec.tuwien.ac.at/) group at the Vienna University of Technology (TU Wien), Austria. I completed my PhD in Computer Science and Engineering from the [CLOUDS Lab](http://clouds.cis.unimelb.edu.au), University of Melbourne, Australia.
+
+Before joining UvA, I held postdoctoral positions at the [High Performance Computing (HPC)](http://hpc.ec.tuwien.ac.at/) group at Vienna University of Technology (TU Wien), Austria. I completed my PhD in Computer Science and Engineering at the [CLOUDS Lab](http://clouds.cis.unimelb.edu.au), University of Melbourne, Australia. Additionally, I was a visiting research scientist at IBM T.J. Watson Research Center, USA (Hybrid Cloud Infrastructure team) in summer 2024 and at IMT Atlantique/INRIA, France in winter 2023.
+
+
+
 
 <!-- 
-### Research Projects
+### Research Projects - done, 
+datasets
+
 I have been working 
 <!--  Mission statement -->
 

@@ -11,7 +11,7 @@ nav_order: 4
 <!-- TODO SIG -->
 
 
-- **Invited Talk:** "Towards Sustainable AI: Optimizing Energy and Carbon Footprints in Large-Scale LLM Workloads", DREAMS Lab, @Vrije Universiteit Amsterdam, Jan 2026.  *Host*: [Prof. Yogesh Simmhan](https://cds.iisc.ac.in/faculty/simmhan/)
+- **Invited Talk:** "Towards Sustainable AI: Optimizing Energy and Carbon Footprints in Large-Scale LLM Workloads", DREAMS Lab, @Indian Institute of Science, Bangalore, India, Jan 2026.  *Host*: [Prof. Yogesh Simmhan](https://cds.iisc.ac.in/faculty/simmhan/)
 
 - **Invited Talk:** "Data Driven Approaches for Energy-aware Application Management in Cloud and Edge Systems", Shenzhen Institutes of Advanced Technology, Chinese Academy Science (SIAT), Shenzhen, China, June 2025.  *Host*: [Minxian XU](https://www.minxianxu.info/)
 

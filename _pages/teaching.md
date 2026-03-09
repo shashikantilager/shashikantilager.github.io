@@ -10,7 +10,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 <a id="teaching"></a>
 
-### Teaching
+<!-- ### Teaching -->
 
 #### 2026
 
@@ -21,7 +21,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 #### 2025
 
 ##### **Semester 1, Period 2, 2025: Large Systems**
-*Lecturer/Teacher, University of Amsterdam, Netherlands*§
+*Lecturer/Teacher, University of Amsterdam, Netherlands*
 - Course enhancements for 2025:
   - Introduction to Kubernetes for container orchestration and automation
   - Infrastructure as Code practices using Terraform

@@ -6,9 +6,9 @@ description:
 nav: false
 ---
 
-- **2026** — Nominated for Best Student Paper Award, [CCGrid 2026](https://ccgrid2026.org/), Sydney, Australia — "Characterizing LLM Inference Energy-Performance Tradeoffs across Workloads and GPU Scaling" (Paul J. Maliakel)
+- **2026** — Nominated for Best Student Paper Award, [CCGrid 2026](https://ccgrid2026.org/), Sydney, Australia — "Characterizing LLM Inference Energy-Performance Tradeoffs across Workloads and GPU Scaling"
 
-- **2023** — Best Paper Award, [UCC 2023](https://ucc-conference.org/), Messina, Italy — "A Data-driven Analysis of a Cloud Data Center: Statistical Characterization of Workload, Energy and Temperature" (Mayank Jha)
+- **2023** — Best Paper Award, [UCC 2023](https://ucc-conference.org/), Messina, Italy — "A Data-driven Analysis of a Cloud Data Center: Statistical Characterization of Workload, Energy and Temperature"
 
 - **2023** — Young Researcher Award, [Euro-Par 2023](https://2023.euro-par.org/), Limassol, Cyprus — "SymED: Adaptive and Online Symbolic Representation of Data on the Edge" *(student: Daniel Hofstätter)*
 

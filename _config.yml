@@ -126,6 +126,10 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
+# Visitor stats (used on /pagestats — not indexed)
+# GoatCounter: sign up free at https://www.goatcounter.com — use your chosen code (e.g. "shashikantilager")
+goatcounter_id: shashikantilager
+
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)

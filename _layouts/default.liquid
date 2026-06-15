@@ -13,6 +13,7 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
   </head>
 
   <!-- Body -->
@@ -74,5 +75,8 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
+    {% if site.goatcounter_id and site.goatcounter_id != "" %}
+    <script data-goatcounter="https://{{ site.goatcounter_id }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    {% endif %}
   </body>
 </html>

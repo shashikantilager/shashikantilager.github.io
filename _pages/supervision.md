@@ -11,13 +11,14 @@ nav_order: 3
 <a id="research-supervision"></a>
 
 ## PhD Students
-- **Mr. Paul Daniëlse**, *PhD Thesis*,	Root Cause Analysis in Large Scale Micro Services-based Applications, University of Amsterdam (UvA), Netherlands, 2024 - present (co-supervision with Prof. Zhiming Zhao).
-- **Mr. Paul. J. Maliakel**, *PhD Thesis*,	Resource efficient LLM Serving at Scale, TU Wien, Austria, 2024 - present (co-supervision with Prof. Ivona Brandic).
+- **Mr. Gonçalo Teixeira de Pinho Ferreira**, *PhD Thesis*, Hardware-Software Co-Design Methods for Energy-Efficient and Sustainable AI Systems, University of Amsterdam (UvA), Netherlands, 2026 - present (co-supervision with Prof. Zhiming Zhao).
+- **Mr. Paul Daniëlse**, *PhD Thesis*, Root Cause Analysis in Large Scale Micro Services-based Applications, University of Amsterdam (UvA), Netherlands, 2024 - present (co-supervision with Prof. Zhiming Zhao).
+- **Mr. Paul. J. Maliakel**, *PhD Thesis*, Resource efficient LLM Serving at Scale, TU Wien, Austria, 2024 - present (co-supervision with Prof. Ivona Brandic).
 - **Mr. Tharindu Bandara**, *PhD Thesis*, Carbon-aware Resource Management in Edge-Cloud Systems, University of Melbourne (UniMelb), Australia (remote co-supervision along with Prof. Raj Buyya and Dr Maria Read), 2021 - 2025 (*completed*).
 
 ## Research Assistants/Postdocs
-- **Mr. Adnan Tahir**, *Postdoc*, 2025-present.
-- **Mr. Gonçalo Ferreira**, *Research Assistant*, 2025- present. 
+- **Mr. Adnan Tahir**, *Postdoc*, 2025 - present.
+- **Mr. Gonçalo Teixeira de Pinho Ferreira**, *Research Assistant*, 2025 - 2026.
 
 ## Master Thesis/ Semester Projects
 I genuinely enjoy mentoring and supervising Master's thesis students. There is something deeply rewarding about guiding students into research and watching them grow within just a few months — from newcomers to contributors at the forefront of the field. Many of the theses completed under my supervision have resulted in significant contributions to our ongoing research projects, often leading to publications at top international conferences and journals. **If you are a student at UvA or Vrije Universiteit Amsterdam (joint CS degree), are excited about cutting-edge systems research, and are interested in working with me, please reach out via email**.

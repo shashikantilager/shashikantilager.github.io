@@ -5,7 +5,7 @@ permalink: /
 subtitle: Assistant Professor, <a href="https://www.uva.nl/en">University of Amsterdam (UvA)</a>
 
 profile:
-  align: left
+  align: right
   image: prof_pic_24.jpg
   image_circular: true
   more_info: >

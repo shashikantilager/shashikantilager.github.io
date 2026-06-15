@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /supervision/
-title: Supervision
+title: Team
 description:
 nav: true
 nav_order: 3
@@ -24,7 +24,7 @@ I genuinely enjoy mentoring and supervising Master's thesis students. There is s
 
 - **Jianlong Lei**, *Master Thesis*,  Resource-Efficient KV Cache Management under Limited Memory Budget for Long-Context Inference in LLMs, University of Amsterdam, Netherlands, 2025. => ([CCGRID 2026](/assets/pdf/publications/ARKV_CCGRID_2026.pdf)).
 - **Jingpo Xu**, *Master Thesis*, On the Feasibility of LLM Model Sharding in Edge-Cloud, University of Amsterdam, Netherlands, 2022 - 2025.
-- **Gonçalo Teixeira de Pinho Ferreira**, *Master Thesis*, Sustainable Orchestration of K8s Workloads in Distributed Virtual Research Infrastructures, University of Amsterdam, Netherlands, 2025.
+- **Gonçalo Teixeira de Pinho Ferreira**, *Master Thesis*, Sustainable Orchestration of K8s Workloads in Distributed Virtual Research Infrastructures, University of Amsterdam, Netherlands, 2025. => ([TDIS/EuroSys 26](https://dl.acm.org/doi/10.1145/3802513.3803486)).
 - **Yingda Song**, *Master Thesis*, KV Cache Optimizations in LLM Inference, University of Amsterdam, Netherlands, 2025.
 - **Xinyu Jiang**, *Master Thesis*, Carbon-Aware Federated Fine-Tuning of Foundation Models, University of Amsterdam, Netherlands, 2025.
 - **Mr. Thomas Ziller**, *Master Thesis*,	Cost-aware Dynamic Router for LLMs, TU Wien, 2024 - 2025. ([preprint](/assets/pdf/publications/greenserv_2026.pdf)).

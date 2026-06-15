@@ -1,0 +1,18 @@
+<section class="research-directions">
+  <h2 class="section-heading">Research Directions</h2>
+  <div class="rd-grid">
+    {% for dir in site.data.research_directions %}
+      <div class="rd-card">
+        <div class="rd-icon">{{ dir.icon }}</div>
+        <h3 class="rd-title">{{ dir.title }}</h3>
+        <p class="rd-subtitle">{{ dir.subtitle }}</p>
+        <p class="rd-desc">{{ dir.description }}</p>
+        <div class="rd-keywords">
+          {% for kw in dir.keywords %}
+            <span class="rd-kw">{{ kw }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

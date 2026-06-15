@@ -3,33 +3,89 @@ layout: page
 permalink: /projects/
 title: Projects
 description:
-nav: false
+nav: true
+nav_order: 2
 ---
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign all_projects = site.projects | sort: "importance" | reverse %}
+{% assign active = all_projects | where: "status", "ongoing" %}
+{% assign past   = all_projects | where: "status", "completed" %}
 
-<ol class="project-enumeration">
-  {% for project in sorted_projects limit: 6 %}
-    <li>
-      <strong>{{ project.title }}</strong><br>
-      {% if project.description %}
-        <em>{{ project.description }}</em><br>
-      {% endif %}
-      {% if project.role %}
-        Role: {{ project.role }}<br>
-      {% endif %}
-      {% if project.year %}
-        Year: {{ project.year }}<br>
-      {% endif %}
-      {% unless project.hide_link == true or project.hide_link == "true" %}
-        {% if project.link_text %}
-          Link: {{ project.link_text }}
-        {% elsif project.external_link %}
-          Link: <a href="{{ project.external_link }}" target="_blank" rel="noopener noreferrer">Project page</a>
-        {% else %}
-          Link: <a href="{{ project.url | relative_url }}">Project page</a>
+<div class="proj-list">
+
+  <div class="proj-group">
+    <h3 class="proj-group-title">Active Projects <span class="proj-group-count">{{ active.size }}</span></h3>
+    {% for p in active %}
+      <a href="{{ p.url | relative_url }}" class="proj-row">
+        <div class="proj-row-header">
+          <span class="proj-title">{{ p.title }}</span>
+          <span class="proj-year">{{ p.year }}</span>
+        </div>
+        {% if p.subtitle %}
+          <div class="proj-subtitle">{{ p.subtitle }}</div>
         {% endif %}
-      {% endunless %}
-    </li>
-  {% endfor %}
-</ol>
+        <div class="proj-funding-line">
+          <span class="proj-line-label">Funding</span>
+          {% if p.funder_logo %}
+            <img src="{{ '/assets/img/funders/' | append: p.funder_logo | relative_url }}" alt="{{ p.funder }}" class="proj-funder-logo">
+          {% endif %}
+          <span class="proj-funder-name">{{ p.funder }}</span>
+          {% if p.budget or p.amount %}<span class="proj-amount">({{ p.budget | default: p.amount }})</span>{% endif %}
+        </div>
+        {% if p.role %}
+          <div class="proj-role-line">
+            <span class="proj-line-label">Role</span>
+            <span class="proj-role-value{% if p.role contains 'PI' or p.role contains 'Coordinator' %} proj-role-pi{% endif %}">{{ p.role }}</span>
+          </div>
+        {% endif %}
+        {% if p.description %}
+          <div class="proj-desc">{{ p.description }}</div>
+        {% endif %}
+        {% if p.tags %}
+          <div class="proj-tags">
+            {% for tag in p.tags %}
+              <span class="proj-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+
+  <div class="proj-group">
+    <h3 class="proj-group-title">Completed &amp; Past Grants <span class="proj-group-count">{{ past.size }}</span></h3>
+    {% for p in past %}
+      <a href="{{ p.url | relative_url }}" class="proj-row proj-row-past">
+        <div class="proj-row-header">
+          <span class="proj-title">{{ p.title }}</span>
+          <span class="proj-year">{{ p.year }}</span>
+        </div>
+        <div class="proj-funding-line">
+          <span class="proj-line-label">Funding</span>
+          {% if p.funder_logo %}
+            <img src="{{ '/assets/img/funders/' | append: p.funder_logo | relative_url }}" alt="{{ p.funder }}" class="proj-funder-logo">
+          {% endif %}
+          <span class="proj-funder-name">{{ p.funder }}</span>
+          {% if p.amount %}<span class="proj-amount">({{ p.amount }})</span>{% endif %}
+        </div>
+        {% if p.role %}
+          <div class="proj-role-line">
+            <span class="proj-line-label">Role</span>
+            <span class="proj-role-value">{{ p.role }}</span>
+          </div>
+        {% endif %}
+        {% if p.description %}
+          <div class="proj-desc">{{ p.description }}</div>
+        {% endif %}
+        {% if p.tags %}
+          <div class="proj-tags">
+            {% for tag in p.tags %}
+              <span class="proj-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+
+</div>

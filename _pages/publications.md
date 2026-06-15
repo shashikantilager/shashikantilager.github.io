@@ -2,38 +2,101 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 
-nav: false
+description:
+nav: true
+nav_order: 1
 ---
 
-The publications are in reversed chronological order. The  full list of updated  publications can be found on my [Google scholar profile](https://scholar.google.com.au/citations?user=qBnfuW4AAAAJ&hl=en)
+Full list on [Google Scholar](https://scholar.google.com.au/citations?user=qBnfuW4AAAAJ&hl=en).
 
-### Conference and Journal Publications
+<div class="pub-filter-bar">
+  <div class="pub-filter-group">
+    <span class="pub-filter-label">Type</span>
+    <button class="pub-filter-btn active" data-filter-type="all">All</button>
+    <button class="pub-filter-btn" data-filter-type="journal">Journal</button>
+    <button class="pub-filter-btn" data-filter-type="conference">Conference</button>
+    <button class="pub-filter-btn" data-filter-type="workshop">Workshop</button>
+  </div>
+  <div class="pub-filter-group">
+    <span class="pub-filter-label">Year</span>
+    <select id="pub-year-select" class="pub-year-select">
+      <option value="all">All years</option>
+    </select>
+  </div>
+  <div class="pub-filter-group pub-filter-count">
+    <span id="pub-count"></span>
+  </div>
+</div>
 
-<!-- _pages/publications.md -->
+<div class="publications" id="pub-list">
+{% bibliography --query @*[hidden != true] --group_by year --group_order descending -f {{ site.scholar.bibliography }} %}
+</div>
+
+### Book Chapters
+
 <div class="publications">
+{% bibliography --query @incollection --group_by none -f {{ site.scholar.bibliography }} %}
+</div>
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+<script>
+(function () {
+  // Populate year dropdown from rendered entries
+  const yearSelect = document.getElementById('pub-year-select');
+  const years = new Set();
+  document.querySelectorAll('.pub-row[data-year]').forEach(function (r) {
+    if (r.dataset.year) years.add(r.dataset.year);
+  });
+  Array.from(years).sort(function (a, b) { return b - a; }).forEach(function (y) {
+    const opt = document.createElement('option');
+    opt.value = y;
+    opt.textContent = y;
+    yearSelect.appendChild(opt);
+  });
 
- </div>
- 
+  let activeType = 'all';
+  let activeYear = 'all';
 
-### Other publications
+  function applyFilters() {
+    let visible = 0;
+    document.querySelectorAll('.pub-row').forEach(function (row) {
+      const typeMatch = activeType === 'all' || row.dataset.type === activeType;
+      const yearMatch = activeYear === 'all' || row.dataset.year === activeYear;
+      const show = typeMatch && yearMatch;
+      row.closest('li').style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
 
-#### Book Chapters
+    document.querySelectorAll('#pub-list h2').forEach(function (h2) {
+      let sibling = h2.nextElementSibling;
+      let hasVisible = false;
+      while (sibling && sibling.tagName !== 'H2') {
+        if (sibling.tagName === 'OL') {
+          if (sibling.querySelectorAll('li:not([style*="none"])').length > 0) hasVisible = true;
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      h2.style.display = hasVisible ? '' : 'none';
+    });
 
-- Mohammad Goudarzi, Shashikant Ilager, and Rajkumar Buyya,
-Cloud Computing and Internet of Things: Recent Trends and Directions, 
-New Frontiers in Cloud Computing and Internet of Things, 
-R. Buyya, L. Garg, G. Fortino, S. Misra (eds), 3-29pp, ISBN: 978-3-031-05527-0, Springer, Switzerland, October 2022.
+    const countEl = document.getElementById('pub-count');
+    if (countEl) countEl.textContent = visible + ' paper' + (visible !== 1 ? 's' : '');
+  }
 
-- Minxian Xu, Chengxi Gao, Shashikant Ilager, Huaming Wu, Chengzhong Xu, and Rajkumar Buyya, 
-Green-aware Mobile Edge Computing for IoT: Challenges, Solutions and Future Directions, 
-Mobile Edge Computing (MEC), A. Mukherjee, D. De, S. K. Ghosh, and R. Buyya (eds), Springer, USA (in press), 2020.
+  document.addEventListener('click', function (e) {
+    const btn = e.target.closest('.pub-filter-btn');
+    if (!btn || !('filterType' in btn.dataset)) return;
+    activeType = btn.dataset.filterType;
+    btn.closest('.pub-filter-group').querySelectorAll('.pub-filter-btn').forEach(function (b) {
+      b.classList.toggle('active', b === btn);
+    });
+    applyFilters();
+  });
 
-- Shashikant Ilager, Rajeev Wankar, Raghavendra Kune, and Rajkumar Buyya,
-GPU PaaS Computation Model in Aneka Cloud Computing Environments, 
-Smart Data: State-of-the-Art Perspectives in Computing and Applications, K. Li, Q. Zhang,
-L. Yang, B. Martino (eds), ISBN-13: 978-1138545588, Chapman & Hall/CRC Press, USA, March 28, 2019.
+  yearSelect.addEventListener('change', function () {
+    activeYear = yearSelect.value;
+    applyFilters();
+  });
 
-
+  applyFilters();
+})();
+</script>

@@ -1,0 +1,47 @@
+- id: green-ai
+  icon: "⚡"
+  title: "Green AI"
+  subtitle: "Sustainable AI Infrastructure"
+  description: >
+    Measuring, modeling, and reducing the energy footprint of AI workloads — from
+    LLM training and inference to data-intensive pipelines. Includes carbon-aware
+    scheduling, energy-efficient deep learning systems, and sustainability metrics
+    for AI infrastructure.
+  keywords:
+    - Energy-efficient ML
+    - Carbon-aware scheduling
+    - Sustainable data centers
+    - LLM efficiency
+  pub_query: "green OR energy OR sustainab OR carbon OR power"
+
+- id: cloud
+  icon: "☁️"
+  title: "Cloud Computing"
+  subtitle: "Distributed Systems & Resource Management"
+  description: >
+    Designing and optimizing resource management strategies for large-scale cloud
+    platforms. Covers workload characterization, performance modeling, QoS-aware
+    scheduling, and data-driven approaches to managing heterogeneous cloud
+    infrastructure at scale.
+  keywords:
+    - Cloud resource management
+    - Workload scheduling
+    - Performance modeling
+    - Heterogeneous computing
+  pub_query: "cloud OR resource OR scheduling OR QoS"
+
+- id: edge
+  icon: "📡"
+  title: "Resource-Efficient Edge"
+  subtitle: "Edge-Cloud Continuum & IoT"
+  description: >
+    Extending intelligence to the network edge — latency-aware task offloading,
+    federated learning under resource constraints, and symbolic/compact AI models
+    for IoT devices. Research spans the full edge-cloud continuum from sensors to
+    data centers.
+  keywords:
+    - Edge computing
+    - Federated learning
+    - IoT & sensor systems
+    - Task offloading
+  pub_query: "edge OR IoT OR federated OR offload"

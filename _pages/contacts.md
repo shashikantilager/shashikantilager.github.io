@@ -3,8 +3,8 @@ layout: page
 permalink: /contacts/
 title: Contacts
 description: 
-nav: true
-nav_order: 6
+nav: false
+nav_order: 7
 ---
 **Email**:
 

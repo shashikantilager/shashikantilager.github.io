@@ -4,7 +4,7 @@ permalink: /teaching/
 title:  Teaching
 description: 
 nav: true
-nav_order: 2
+nav_order: 4
 ---
 I have been actively involved in [Teaching](#teaching)  activities. The details can be found on this page. 
 

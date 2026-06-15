@@ -18,36 +18,1017 @@ body {
 }
 
 body.fixed-top-nav {
-  // Add some padding for the nav-bar.
   padding-top: 56px;
 }
 
 body.sticky-bottom-footer {
-  // Remove padding below footer.
   padding-bottom: 0;
 }
 
 .container {
   max-width: $max-content-width;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-// Profile
+// Profile — float left, bio wraps around it
 .profile {
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  max-width: 200px;
+
   img {
     width: 100%;
   }
+
+  .more-info {
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.6rem;
+    line-height: 1.5;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 576px) {
+    float: none;
+    margin: 0 auto 1.5rem;
+    max-width: 140px;
+    display: block;
+    text-align: center;
+  }
 }
 
-// TODO: redefine content layout.
+// Social icons moved up (right after bio)
+.about-social {
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  clear: both;
+}
 
 /******************************************************************************
- * Publications
+ * Section headings shared style
  ******************************************************************************/
 
-// TODO: redefine publications layout.
+.section-heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--global-theme-color);
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--global-theme-color);
+  display: inline-block;
+}
 
-/*****************************************************************************
-* Projects
-*****************************************************************************/
+/******************************************************************************
+ * Research Directions
+ ******************************************************************************/
 
-// TODO: redefine projects layout.
+.research-directions {
+  margin: 2.5rem 0 2rem;
+
+  .rd-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .rd-card {
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      border-color: var(--global-theme-color);
+    }
+  }
+
+  .rd-icon {
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+    line-height: 1;
+  }
+
+  .rd-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.15rem;
+    color: var(--global-text-color);
+  }
+
+  .rd-subtitle {
+    font-size: 0.78rem;
+    color: var(--global-theme-color);
+    font-weight: 600;
+    margin: 0 0 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .rd-desc {
+    font-size: 0.87rem;
+    color: var(--global-text-color-light);
+    line-height: 1.6;
+    margin-bottom: 0.7rem;
+    margin-top: 0;
+  }
+
+  .rd-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 1rem;
+  }
+
+  .rd-kw {
+    font-size: 0.72rem;
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color-light);
+    border-radius: 3px;
+    padding: 0.15rem 0.5rem;
+  }
+
+  .rd-link {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/******************************************************************************
+ * News Widget (homepage)
+ ******************************************************************************/
+
+.news-widget {
+  margin: 2rem 0;
+
+  .news-widget-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+  }
+
+  .news-all-link {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .news-widget-scroll {
+    max-height: 280px;
+    overflow-y: auto;
+    border-left: 3px solid var(--global-divider-color);
+    padding-left: 1rem;
+
+    &::-webkit-scrollbar { width: 4px; }
+    &::-webkit-scrollbar-track { background: transparent; }
+    &::-webkit-scrollbar-thumb { background: var(--global-divider-color); border-radius: 2px; }
+  }
+
+  .news-widget-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .news-widget-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 0.88rem;
+    align-items: baseline;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .news-widget-date {
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+    min-width: 5rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .news-widget-content {
+    color: var(--global-text-color);
+    line-height: 1.5;
+  }
+}
+
+/******************************************************************************
+ * News Timeline (news page)
+ ******************************************************************************/
+
+.news-timeline {
+  margin-top: 1rem;
+
+  .news-year-group {
+    margin-bottom: 2rem;
+  }
+
+  .news-year-label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    border-bottom: 2px solid var(--global-divider-color);
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .news-year-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .news-timeline-item {
+    display: flex;
+    gap: 1.2rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 0.9rem;
+    align-items: baseline;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .news-tl-date {
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+    min-width: 4.5rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+
+  .news-tl-content {
+    color: var(--global-text-color);
+    line-height: 1.55;
+  }
+}
+
+/******************************************************************************
+ * Publications — compact inline style
+ ******************************************************************************/
+
+// Publication filter bar
+.pub-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin: 1.2rem 0 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--global-code-bg-color);
+  border-radius: 6px;
+
+  @media (max-width: 576px) {
+    gap: 0.6rem;
+  }
+}
+
+.pub-filter-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.pub-filter-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--global-text-color-light);
+  margin-right: 0.25rem;
+  white-space: nowrap;
+}
+
+.pub-filter-btn {
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  border-radius: 3px;
+  border: 1.5px solid var(--global-divider-color);
+  background: transparent;
+  color: var(--global-text-color-light);
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  &.active {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: #fff;
+  }
+}
+
+.pub-filter-count {
+  margin-left: auto;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+
+.pub-year-select {
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  border: 1.5px solid var(--global-divider-color);
+  background: transparent;
+  color: var(--global-text-color-light);
+  cursor: pointer;
+  outline: none;
+
+  &:hover, &:focus {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+}
+
+.publications {
+  margin-top: 1rem;
+
+  // Year headings from jekyll-scholar group_by
+  h2.bibliography-year,
+  h2[class*="year"] {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.25rem;
+    margin: 2rem 0 0.8rem;
+  }
+
+  ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.pub-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-type-tag {
+  flex-shrink: 0;
+  font-size: 0.67rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  margin-top: 0.15rem;
+  letter-spacing: 0.03em;
+
+  &.tag-journal {
+    background: var(--global-theme-color);
+    color: #fff;
+  }
+
+  &.tag-conf {
+    background: transparent;
+    border: 1.5px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  &.tag-workshop {
+    background: transparent;
+    border: 1.5px solid var(--global-text-color-light);
+    color: var(--global-text-color-light);
+  }
+
+  &.tag-other {
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color-light);
+  }
+}
+
+.pub-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-authors {
+  font-size: 0.84rem;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+  margin-bottom: 0.18rem;
+
+  strong {
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+}
+
+.pub-title {
+  font-size: 0.93rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.18rem;
+  color: var(--global-text-color);
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-venue {
+  font-size: 0.84rem;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+
+  em {
+    font-style: italic;
+  }
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.pub-btn {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.1rem 0.55rem;
+  border-radius: 3px;
+  border: 1.5px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.pub-award-badge {
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #92650a;
+  background: #fff8e6;
+  border: 1px solid #e8c96a;
+  border-radius: 3px;
+  padding: 0.1rem 0.55rem;
+  margin: 0.25rem 0 0.1rem;
+
+  [data-theme="dark"] & {
+    background: rgba(255, 200, 50, 0.12);
+    border-color: rgba(255, 200, 50, 0.35);
+    color: #f0c040;
+  }
+}
+
+// BibTeX popup block
+div.bibtex.hidden {
+  display: none;
+  width: 100%;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+
+  &.open {
+    display: block;
+  }
+
+  pre {
+    background: var(--global-code-bg-color);
+    border-radius: 4px;
+    padding: 0.8rem;
+    overflow-x: auto;
+    font-size: 0.78rem;
+  }
+}
+
+// Book chapter list
+.pub-book-list {
+  margin-top: 0.5rem;
+
+  li {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: var(--global-text-color);
+  }
+}
+
+/******************************************************************************
+ * Projects — listing cards + detail page
+ ******************************************************************************/
+
+// Funder logos strip at top of page
+.funder-strip {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  padding: 0.9rem 1.1rem;
+  background: var(--global-code-bg-color);
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.funder-strip-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
+.funder-logos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.funder-logo-item {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(20%);
+    opacity: 0.9;
+
+    &:hover {
+      opacity: 1;
+      filter: none;
+    }
+  }
+}
+
+.funder-logo-fallback {
+  display: flex;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.25rem 0.7rem;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.funder-eu {
+  background: #003399;
+  color: #fff;
+
+  .funder-eu-flag {
+    margin-right: 0.3rem;
+    color: #ffcc00;
+  }
+}
+
+.funder-aws     { background: #ff9900; color: #fff; }
+.funder-industry { background: #4a5568; color: #fff; }
+.funder-university { background: #002147; color: #fff; }
+
+// Grant ledger
+.grant-ledger {
+  margin-bottom: 2.5rem;
+}
+
+.grant-section-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--global-text-color-light);
+  border-bottom: 2px solid var(--global-divider-color);
+  padding-bottom: 0.35rem;
+  margin: 0 0 0.6rem;
+}
+
+.grant-entry {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  align-items: flex-start;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &.grant-entry-past {
+    opacity: 0.75;
+  }
+}
+
+.grant-funder-col {
+  flex-shrink: 0;
+  width: 130px;
+  padding-top: 0.1rem;
+
+  @media (max-width: 576px) {
+    width: auto;
+  }
+}
+
+.grant-funder-pill {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.18rem 0.55rem;
+  border-radius: 3px;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.funder-pill-eu-horizon   { background: #003399; color: #fff; }
+.funder-pill-aws          { background: #ff9900; color: #232f3e; }
+.funder-pill-wienit       { background: #e2001a; color: #fff; }
+.funder-pill-unimelb      { background: #002147; color: #fff; }
+.funder-pill-industry     { background: #4a5568; color: #fff; }
+.funder-pill-university   { background: #002147; color: #fff; }
+.funder-pill-other        { background: var(--global-code-bg-color); color: var(--global-text-color-light); }
+
+.grant-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.grant-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.2rem;
+}
+
+.grant-title-block {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+a.grant-title, span.grant-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--global-text-color);
+  text-decoration: none;
+  line-height: 1.4;
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+}
+
+.grant-role {
+  font-size: 0.76rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+
+  &.grant-role-pi {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+.grant-right {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.grant-amount {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.grant-years {
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  font-variant-numeric: tabular-nums;
+}
+
+.grant-desc {
+  font-size: 0.83rem;
+  color: var(--global-text-color-light);
+  line-height: 1.55;
+  margin: 0;
+}
+
+// ---- Project listing cards ----
+
+// ---- Projects listing: single-column vertical ----
+
+.proj-list {
+  margin-top: 1.5rem;
+}
+
+.proj-group {
+  margin-bottom: 2.8rem;
+}
+
+.proj-group-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--global-text-color-light);
+  border-bottom: 2px solid var(--global-divider-color);
+  padding-bottom: 0.4rem;
+  margin: 0 0 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.proj-group-count {
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: var(--global-divider-color);
+  color: var(--global-text-color-light);
+  border-radius: 10px;
+  padding: 0.05rem 0.45rem;
+  letter-spacing: 0;
+}
+
+.proj-row {
+  display: block;
+  padding: 1rem 0 1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  text-decoration: none;
+  transition: background 0.15s ease;
+
+  &:first-of-type { border-top: 1px solid var(--global-divider-color); }
+
+  &:hover {
+    text-decoration: none;
+    .proj-title { color: var(--global-theme-color); }
+  }
+
+  &.proj-row-past {
+    .proj-title { color: var(--global-text-color-light); }
+  }
+}
+
+.proj-row-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.proj-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--global-text-color);
+  line-height: 1.35;
+  transition: color 0.15s ease;
+}
+
+.proj-year {
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.proj-subtitle {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.proj-funding-line,
+.proj-role-line {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.82rem;
+}
+
+.proj-line-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--global-text-color-light);
+  min-width: 3.8rem;
+  flex-shrink: 0;
+}
+
+.proj-funder-logo {
+  height: 18px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.proj-funder-name {
+  color: var(--global-text-color);
+  font-weight: 500;
+}
+
+.proj-amount {
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+}
+
+.proj-role-value {
+  color: var(--global-text-color);
+  font-weight: 500;
+
+  &.proj-role-pi {
+    color: var(--global-theme-color);
+    font-weight: 700;
+  }
+}
+
+.proj-desc {
+  font-size: 0.84rem;
+  color: var(--global-text-color-light);
+  line-height: 1.55;
+  margin: 0.4rem 0 0.5rem;
+}
+
+.proj-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.35rem;
+}
+
+.proj-tag {
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--global-text-color-light);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  padding: 0.1rem 0.45rem;
+  letter-spacing: 0.02em;
+}
+
+// ---- Project detail page ----
+
+.project-detail {
+  max-width: 680px;
+}
+
+.pd-header {
+  padding-bottom: 1.4rem;
+  border-bottom: 2px solid var(--global-divider-color);
+  margin-bottom: 1.8rem;
+}
+
+.pd-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin: 0 0 0.25rem;
+  line-height: 1.2;
+  color: var(--global-text-color);
+}
+
+.pd-subtitle {
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  margin: 0 0 1rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.pd-meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin: 0.8rem 0 0;
+}
+
+.pd-meta-row {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.88rem;
+  align-items: baseline;
+
+  dt {
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    min-width: 7rem;
+    flex-shrink: 0;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  dd {
+    margin: 0;
+    color: var(--global-text-color);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+}
+
+.pd-inline-logo {
+  height: 18px;
+  width: auto;
+  object-fit: contain;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.pd-mono {
+  font-family: monospace;
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+}
+
+.pd-role-pi {
+  color: var(--global-theme-color);
+  font-weight: 700;
+}
+
+.pd-tba {
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+
+.pd-abstract {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--global-text-color);
+}
+
+.pd-abstract-heading {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--global-text-color-light);
+  margin: 0 0 0.7rem;
+}

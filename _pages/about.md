@@ -2,20 +2,21 @@
 layout: about
 title: About
 permalink: /
-subtitle:  Assistant Professor, <a href="https://www.uva.nl/en">University of Amsterdam (UvA)</a>
+subtitle: Assistant Professor, <a href="https://www.uva.nl/en">University of Amsterdam (UvA)</a>
 
 profile:
-  align: center
-  image: prof_pic_24.jpg #prof_pic_shashi1.jpg
-  image_circular: true # crops the image to make it circular
+  align: left
+  image: prof_pic_24.jpg
+  image_circular: true
   more_info: >
-    <p>Room L5.21</p>
-    <p>Lab 42, Science Park 900</p>
+    <p>Room L5.21, Lab 42</p>
+    <p>Science Park 900</p>
     <p>1098XH Amsterdam, the Netherlands</p>
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+    <p>s.s.ilager@uva.nl</p>
+news: true
+latest_posts: false
+selected_papers: false
+social: true
 ---
 
 Hello World!

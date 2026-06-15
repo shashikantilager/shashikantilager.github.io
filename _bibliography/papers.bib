@@ -1,412 +1,157 @@
 
-
 string{aps = {American Physical Society,}}
-sample_article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+
+@comment{
+  -----------------------------------------------------------------------
+  HOW TO ADD A NEW PAPER
+  -----------------------------------------------------------------------
+  Use @article for journals, @inproceedings for conferences/workshops.
+  Required fields: bibtex_show={true}, author, title, year, + journal or booktitle.
+  Optional links:  html={publisher URL or arXiv},  pdf={publications/yourfile.pdf},
+                   code={https://github.com/...},  slides={...},  eprint={arXiv ID}.
+  Highlight:       highlight={true}, highlight_note={Best Paper Award, VENUE YEAR}
+  Your name is auto-bolded+italicised via site.scholar settings.
+  -----------------------------------------------------------------------
 }
 
 
-sample2_INPROCEEDINGS{ilagerdemon_UCC22,
+% -----------------------------------------------------------------------
+% 2026
+% -----------------------------------------------------------------------
+% Order within year: bib-file order is preserved by jekyll-scholar.
+% Convention: primary/flagship results first, collaborative last, journals pinned last.
+
+@inproceedings{JianlongLei2026ARKV,
   bibtex_show={true},
-  author={Ilager, Shashikant and Fahringer, Jakob and Dias, Samuel Carlos de Lima and Brandic, Ivona},
-  booktitle={2022 IEEE/ACM 15th International Conference on Utility and Cloud Computing (UCC)}, 
-  title={DEMon: Decentralized Monitoring for Highly Volatile Edge Environments}, 
-  year={2022},
-  number={},
-  pages={145-150},
-  doi={10.1109/UCC56403.2022.00026},
-  comment_abbr={},
-  comment_url={},
-  comment_html={},
-  comment_pdf={},
-  eprint = {}
-  }
+  projects={greendigit},
+  author={Lei, Jianlong and Ilager, Shashikant},
+  title={ARKV: Adaptive and Resource-Efficient KV Cache Management under Limited Memory Budget for Long-Context Inference in LLMs},
+  booktitle={Proceedings of the 26th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)},
+  year={2026},
+  html={https://arxiv.org/abs/2603.08727},
+  pdf={publications/ARKV_CCGRID_2026.pdf},
+  code={https://github.com/Large-scale-Sustainable-Computing-LSC/ARKV}
+}
 
-@inproceedings{DBLP:conf/icdcn/Ilager_ICDCN17,
+@inproceedings{maliakel2026ccgrid,
   bibtex_show={true},
-  author    = {Shashikant Ilager and
-               P. S. V. S. Sai Prasad},
-  title     = {Scalable MapReduce-based Fuzzy Min-Max Neural Network for Pattern
-               Classification},
-  booktitle = {Proceedings of the 18th International Conference on Distributed Computing
-               and Networking, Hyderabad, India, January 5-7, 2017},
-  pages     = {15},
-  publisher = {{ACM}},
-  year      = {2017},
-  doi = {10.1145/3007748.3007776},
-  html = {https://dl.acm.org/doi/10.1145/3007748.3007776},
-  pdf={publications/scalablefmnn_icdcn_17.pdf},
-  code = {https://github.com/shashikantilager/MRFMNN}
+  projects={greendigit},
+  author={Maliakel, Paul Joe and Ilager, Shashikant and Brandic, Ivona},
+  title={Characterizing LLM Inference Energy-Performance Tradeoffs across Workloads and GPU Scaling},
+  booktitle={Proceedings of the 26th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)},
+  year={2026},
+  eprint={2501.08219},
+  html={https://arxiv.org/abs/2501.08219},
+  pdf={publications/LLM_charecterization_ccgrid_2026.pdf},
+  highlight={true},
+  highlight_note={Nominated for Best Student Paper Award}
 }
 
-@article{DBLP:journals/concurrency/Ilager_CCPE_19,
+@article{ziller2026greenserv,
   bibtex_show={true},
-  author    = {Shashikant Ilager and
-               Kotagiri Ramamohanarao and
-               Rajkumar Buyya},
-  title     = {{ETAS:} Energy and thermal-aware dynamic virtual machine consolidation
-               in cloud data center with proactive hotspot mitigation},
-  journal   = {Concurrency and Computation:  Practice and  Experience},
-  volume    = {31},
-  number    = {17},
-  year      = {2019},
-  doi       = {10.1002/cpe.5221},
-  url = {https://doi.org/10.1002/cpe.5221},
-  html={https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5221},
-  pdf={publications/ETAS-ccpe_19.pdf}
+  projects={greendigit},
+  author={Ziller, Thomas and Ilager, Shashikant and Tundo, Alessandro and Bartocci, Ezio and Mariani, Leonardo and Brandic, Ivona},
+  title={GreenServ: Energy-Efficient Context-Aware Dynamic Routing for Multi-Model LLM Inference},
+  journal={arXiv preprint arXiv:2601.17551},
+  year={2026},
+  eprint={2601.17551},
+  html={https://arxiv.org/abs/2601.17551},
+  pdf={publications/greenserv_2026.pdf},
+  code={https://github.com/TZData1/llm-inference-router}
 }
 
-
-@inproceedings{DBLP:conf/ccgrid/Ilager_CCGRID20,
+@inproceedings{ferreira2026ecokube,
   bibtex_show={true},
-  author    = { Shashikant Ilager and
-               Rajeev Muralidhar and
-               Kotagiri Ramamohanarao and
-               Rajkumar Buyya},
-  title     = {A Data-Driven Frequency Scaling Approach for Deadline-aware Energy
-               Efficient Scheduling on Graphics Processing Units (GPUs)},
-  booktitle = {20th {IEEE/ACM} International Symposium on Cluster, Cloud and Internet
-               Computing, {CCGRID} 2020, Melbourne, Australia},
-  pages     = {579--588},
-  publisher = {{IEEE}},
-  year      = {2020},
-  doi       = {10.1109/CCGrid49817.2020.00-35},
-  html = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9139707},
-  pdf = {publications/DDVFS_ccgrid_20.pdf},
-  code = {https://github.com/shashikantilager/gpu-ddvfs}
+  workshop={true},
+  projects={greendigit},
+  author={Ferreira, Gonçalo and Ilager, Shashikant},
+  title={EcoKube: Simulating Carbon-Aware Scheduling Policies in Heterogeneous Edge–Cloud Environments},
+  booktitle={Proceedings of the 4th International Workshop on Testing Distributed Internet of Things Systems (TDIS '26), co-located with EuroSys 2026, Edinburgh, Scotland, UK},
+  year={2026},
+  publisher={ACM},
+  doi={10.1145/3802513.3803486},
+  html={https://dl.acm.org/doi/10.1145/3802513.3803486},
+  pdf={publications/ecokube_tdis_eurosys26.pdf},
+  code={https://github.com/g-uva/EcoKube/tree/tdis-26}
 }
 
-
-@inproceedings{DBLP:journals/corr/ilager_CloudSummit2020,
+@inproceedings{chu2026llmincidents,
   bibtex_show={true},
-  author={Ilager, Shashikant and Muralidhar, Rajeev and Buyya, Rajkumar},
-  booktitle={2020 IEEE Cloud Summit}, 
-  title={Artificial Intelligence (AI)-Centric Management of Resources in Modern Distributed Computing Systems}, 
-  year={2020},
-  volume={},
-  number={},
-  pages={1-10},
-  doi={10.1109/IEEECloudSummit48914.2020.00007},
-  html={https://ieeexplore.ieee.org/document/9283696},
-  pdf={publications/AICentric_cloudsummit_21.pdf}
+  author={Chu, Xiaoyu and Ilager, Shashikant and Zang, Yuheng and Talluri, Sacheendra and Iosup, Alexandru},
+  title={Leveraging LLMs for Structured Information Extraction and Analysis from Cloud Incident Reports},
+  booktitle={Companion of the 17th ACM/SPEC International Conference on Performance Engineering (ICPE 2026)},
+  year={2026}
 }
 
-
-@article{DBLP:journals/tpds/Ilager_TPDS21,
+@article{ilager2026decentralized,
   bibtex_show={true},
-  author    = {Shashikant Ilager and
-               Kotagiri Ramamohanarao and
-               Rajkumar Buyya},
-  title     = {Thermal Prediction for Efficient Energy Management of Clouds Using
-               Machine Learning},
-  journal   = {{IEEE} Transaction on  Parallel Distributed Systems},
-  volume    = {32},
-  number    = {5},
-  pages     = {1044--1056},
-  year      = {2021},
-  doi       = {10.1109/TPDS.2020.3040800},
-  html={https://ieeexplore.ieee.org/document/9272657},
-  pdf={publications/thermalprediction_tpds_21.pdf}
-}
-
-
-@article{DBLP:journals/tmc/Tuli_ilager_TMC22,
-  bibtex_show={true},
-  author    = {Shreshth Tuli and
-               Shashikant Ilager and
-               Kotagiri Ramamohanarao and
-               Rajkumar Buyya},
-  title     = {Dynamic Scheduling for Stochastic Edge-Cloud Computing Environments
-               Using {A3C} Learning and Residual Recurrent Neural Networks},
-  journal   = {{IEEE} Transaction on  Mobile  Computing},
-  volume    = {21},
-  number    = {3},
-  pages     = {940--954},
-  year      = {2022},
-  doi       = {10.1109/TMC.2020.3017079},
-  html={https://ieeexplore.ieee.org/document/9169832},
-  pdf={publications/rlscheduling_tmc_22.pdf},
-  eprint ={https://arxiv.org/abs/2009.02186},
-  code = {https://github.com/Cloudslab/DLSF/blob/master/README.md}
-}
-
-
-@article{khan_ilager_FGCS22,
-bibtex_show={true},
-title = {Workload forecasting and energy state estimation in cloud data centres: ML-centric approach},
-journal = {Future Generation Computer Systems},
-volume = {128},
-pages = {320-332},
-year = {2022},
-issn = {0167-739X},
-doi = {https://doi.org/10.1016/j.future.2021.10.019},
-author = {Tahseen Khan and Wenhong Tian and Shashikant Ilager and Rajkumar Buyya},
-html={https://www.sciencedirect.com/science/article/pii/S0167739X21004155},
-pdf={publications/workloadforecast_fgcs_22.pdf}
-}
-
-
-@article{khan_ilager_jnca22,
-bibtex_show={true},
-title = {Machine learning (ML)-centric resource management in cloud computing: A review and future directions},
-journal = {Journal of Network and Computer Applications},
-volume = {204},
-pages = {103405},
-year = {2022},
-issn = {1084-8045},
-doi = {https://doi.org/10.1016/j.jnca.2022.103405},
-author = {Tahseen Khan and Wenhong Tian and Guangyao Zhou and Shashikant Ilager and Mingming Gong and Rajkumar Buyya},
-html={https://www.sciencedirect.com/science/article/pii/S1084804522000649},
-pdf={publications/mlcentricreview_jnca_22.pdf}
-}
-
-
-@ARTICLE{XU_ilager_TNSM22,
-  bibtex_show={true},
-  author={Xu, Minxian and Song, Chenghao and Ilager, Shashikant and Gill, Sukhpal Singh and Zhao, Juanjuan and Ye, Kejiang and Xu, Chengzhong},
-  journal={IEEE Transactions on Network and Service Management}, 
-  title={CoScal: Multifaceted Scaling of Microservices With Reinforcement Learning}, 
-  year={2022},
-  volume={19},
-  number={4},
-  pages={3995-4009},
-  doi={10.1109/TNSM.2022.3210211},
-  html={https://ieeexplore.ieee.org/document/9904920},
-  pdf={publications/coscal_tnsm_22.pdf}
-}
-
-
-@INPROCEEDINGS{ilagerdemon_UCC22,
-  bibtex_show={true},
-  author={Ilager, Shashikant and Fahringer, Jakob and Dias, Samuel Carlos de Lima and Brandic, Ivona},
-  booktitle={2022 IEEE/ACM 15th International Conference on Utility and Cloud Computing (UCC)}, 
-  title={DEMon: Decentralized Monitoring for Highly Volatile Edge Environments}, 
-  year={2022},
-  number={},
-  location = {Vancouver, Washington, USA},
-  pages={145-150},
-  doi={10.1109/UCC56403.2022.00026},
-  html={https://ieeexplore.ieee.org/document/10061772},
-  pdf={publications/demon_ucc_22.pdf},
-  code = {https://github.com/hpc-tuwien/DEMon}
-  }
-
-
-
-@INPROCEEDINGS{ilager_dc_analysis_UCC23,
-  bibtex_show={true},
-  author={Ilager, Shashikant and  Toosi, Adel N. and Jha, Mayak Raj and Brandic, Ivona  and Buyya, Rajkumar},
-  booktitle={ IEEE/ACM 16th International Conference on Utility and Cloud Computing (UCC 23)}, 
-  title={A Data-driven Analysis of a Cloud Data Center: Statistical Characterization of Workload, Energy and Temperature}, 
-  year={2023},
-  number={},
-  pages={},
-  doi={10.1145/3603166.3632137},
-  location = {Messina, Italy},
-  pdf={publications/UCC_23_data_center_analysis.pdf},
-  code = {https://github.com/shashikantilager/data-center-characterization}
-  }
-
-
-@inproceedings{allesandro_ase23,
-bibtex_show={true},
-author = {Tundo, Alessandro and   Mobilio, Marco and   Ilager, Shashikant and Brandic, Ivona and Bartocci, Ezio and Mariani, Leonardo},
-title = {An Energy-Aware Approach to Design Self-Adaptive AI-based Applications on the Edge},
-year = {2023},
-publisher = {Association for Computing Machinery},
-address = {Kirchberg, Luxembourg},
-booktitle = {Proceedings of the 38th {IEEE/ACM} International Conference on Automated Software Engineering},
-location = {Kirchberg, Luxembourg},
-series = {ASE '23},
-url={http://hpc.ec.tuwien.ac.at/files/ASE_23_SelfAdaptive.pdf},
-html={},
-pdf={publications/selfadaptive_ASE_23.pdf},
-code= {https://gitlab.com/sustainable-continuum-monitoring/self-adaptive-moop}
-}
-
-@inproceedings{daniel_europar23,
-  bibtex_show={true},
-  title={SymED: Adaptive and Online Symbolic Representation of Data on the Edge},
-  author={Hofstätter, Daniel and Ilager, Shashikant and Lujic, Ivan  and Brandic, Ivona},
-  booktitle={Proceedings of the 29th International European Conference on Parallel and Distributed Computing (Europar)},
-  year={2023},
-  location = {Limasol, Cyprus},
-  organization={Springer},
-  html={https://link.springer.com/chapter/10.1007/978-3-031-39698-4_28},
-  pdf={publications/europar_symed_23.pdf},
-  eprint = {https://arxiv.org/pdf/2309.03014.pdf},
-  code = {https://github.com/hpc-tuwien/symed}
-}
-
-
-@INPROCEEDINGS{tharindu_cloud_23,
-  bibtex_show={true},
-  author={Hewage, Tharindu B. and Ilager, Shashikant and Rodriguez, Maria A. and Arroba, Patricia and Buyya, Rajkumar},
-  booktitle={2023 IEEE 16th International Conference on Cloud Computing (CLOUD)}, 
-  title={DEMOTS: A Decentralized Task Scheduling Algorithm for Micro-Clouds with Dynamic Power-Budgets}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={418-427},
-  doi={10.1109/CLOUD60044.2023.00057},
-  url={https://ieeexplore.ieee.org/abstract/document/10255015},
-  html={https://ieeexplore.ieee.org/abstract/document/10255015},
-  pdf={publications/DEMOTS_cloud_23.pdf}
-  }
-
-
-@INPROCEEDINGS{ilager_iedge_23,
-  bibtex_show={true},
-  author={Ilager, Shashikant and De Maio, Vincenzo and Lujic, Ivan and Brandic, Ivona},
-  booktitle={2023 IEEE International Conference on Edge Computing and Communications (EDGE)}, 
-  title={Data-centric Edge-AI: A Symbolic Representation Use Case}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={301-308},
-  doi={10.1109/EDGE60047.2023.00052},
-  comment_abbr={},
-  url={https://ieeexplore.ieee.org/abstract/document/10234261},
-  html={https://ieeexplore.ieee.org/abstract/document/10234261},
-  pdf={publications/datacentricedge_iedge_23.pdf}
-  }
-
-
-@INPROCEEDINGS{meerzhan_abbvsm_icsoc24,
-    bibtex_show={true},
-      title={ABBA-VSM: Time Series Classification using  Symbolic Representation on the Edge.}, 
-      author={Meerzhan Kanatbekova and Shashikant Ilager and Ivona Brandic.},
-      year={2024},
-      pdf = {publications/abbavsm_icsoc24.pdf},
-      booktitle={International Conference on Service-Oriented Computing Tunis, Tunisia, December 3-6, 2024 (ICSOC 2024)},
-
-}
-
-
-@INPROCEEDINGS{chu2024genericmlworkloadshpc,
-    bibtex_show={true},
-      title={Generic and ML Workloads in an HPC Datacenter: Node Energy, Job Failures, and Node-Job Analysis}, 
-      author={Xiaoyu Chu and Daniel Hofstätter and Shashikant Ilager and Sacheendra Talluri and Duncan Kampert and Damian Podareanu and Dmitry Duplyakin and Ivona Brandic and Alexandru Iosup},
-      year={2024},
-      eprint={2409.08949},
-      booktitle={30th International Conference on Parallel and Distributed Systems (ICPADS 2024)},
-      html={https://arxiv.org/abs/2409.08949}, 
-}
-
-@INPROCEEDINGS{maliakel2024fligan,
-      bibtex_show={true},
-      title={FLIGAN: Enhancing Federated Learning with Incomplete Data using GAN}, 
-      author={Paul Joe Maliakel and Shashikant Ilager and Ivona Brandic},
-      year={2024},
-      booktitle={ACM 7th International Workshop on Edge Systems, Analytics and Networking (EdgeSys24), colocated with EuroSys24}, 
-      url={https://arxiv.org/abs/2403.16930},
-      html={https://arxiv.org/abs/2403.16930},
-      pdf={publications/fligan_edgesys_24.pdf}
-}
-
-
-
-@INPROCEEDINGS{ilager2024proteus,
-      bibtex_show={true},
-      title={Proteus: Towards Intent-driven Automated Resource Management Framework for Edge Sensor Nodes}, 
-      author={Shashikant Ilager, Daniel Balouek, Sidi Mohammed Kaddour, Ivona Brandic},
-      year={2024},
-      booktitle={14th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures(FlexScience 2024), in conjunction with HPDC 2024, Pisa, Italy}
-}
-
-
-@inproceedings{ilager2025greencode,
-  bibtex_show={true},
-  title={GREEN-CODE: Learning to Optimize Energy Efficiency in LLM-based Code Generation},
-  author={Ilager, Shashikant and Briem, Lukas Florian and Brandic, Ivona},
-  booktitle={Proceedings of the 25th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)},
-  year={2025},
-  html={https://arxiv.org/abs/2501.11006},
-  code={https://github.com/Large-scale-Sustainable-Computing-LSC/green-code},
-  pdf={publications/TODO}
-}
-}
-
-@inproceedings{hewage2025agingaware,
-  bibtex_show={true},
-  title={Aging-aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference},
-  author={Hewage, Tharindu B. and Ilager, Shashikant and Rodriguez Read, Maria and Buyya, Rajkumar},
-  booktitle={The 16th ACM International Conference on Future and Sustainable Energy Systems (ACM e-Energy)},
-  year={2025},
-  html={https://arxiv.org/pdf/2501.15829},
-  code={https://github.com/tharindu-b-hewage/splitwise-sim-cpu-carbon},
-  pdf={publications/TODO}
-}
-}
-
-
-@article{ilager2024decentralized,
-  bibtex_show={true},
+  author={Ilager, Shashikant and Fahringer, Jakob and Tundo, Alessandro and Brandić, Ivona},
   title={A Decentralized and Self-Adaptive Approach for Monitoring Volatile Edge Environments},
-  author={Ilager, Shashikant and Fahringer, Jakob and Tundo, Alessandro and Brandi{\'c}, Ivona},
-  journal={ ACM Transactions on Autonomous and Adaptive Systems (TAAS)},
-  note = {(to appear)},
-  html={https://arxiv.org/pdf/2405.07806},
-  code = {https://github.com/hpc-tuwien/DEMon},
-  year={2025},
+  journal={ACM Transactions on Autonomous and Adaptive Systems (TAAS)},
+  volume={21},
+  number={2},
+  pages={1--30},
+  year={2026},
+  doi={10.1145/3736726},
+  html={https://dl.acm.org/doi/10.1145/3736726},
+  code={https://github.com/hpc-tuwien/DEMon},
   pdf={publications/demon_taas_2025.pdf}
 }
 
 
+% -----------------------------------------------------------------------
+% 2025
+% -----------------------------------------------------------------------
 
-@article{dynasplit2025,
+@inproceedings{ilager2025greencode,
   bibtex_show={true},
-  author={May, Daniel and Ilager, Shashikant and Brandic, Ivona},
-  journal={arXiv preprint arXiv.2410.23881},
-  title={DynaSplit: A Hardware-Software Co-Design Framework for Energy-Aware Inference on Edge},
+  projects={greendigit},
+  author={Ilager, Shashikant and Briem, Lukas Florian and Brandic, Ivona},
+  title={GREEN-CODE: Learning to Optimize Energy Efficiency in LLM-based Code Generation},
+  booktitle={Proceedings of the 25th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)},
   year={2025},
-  html={https://doi.org/10.48550/arXiv.2410.23881},
-  pdf={publications/dynasplit_25.pdf}
+  eprint={2501.11006},
+  html={https://arxiv.org/abs/2501.11006},
+  code={https://github.com/Large-scale-Sustainable-Computing-LSC/green-code},
+  pdf={publications/greencode_ccgrid_25.pdf}
 }
 
-
-
-https://ieeexplore.ieee.org/abstract/document/11164487/
-@article{zilic2025fresco,
+@inproceedings{hewage2025agingaware,
   bibtex_show={true},
-  author={Zilic, Josip and De Maio, Vincenzo and Ilager, Shashikant and Brandic, Ivona},
-  journal={IEEE Transactions on Services Computing},
-  title={FRESCO: Fast and Reliable Edge Offloading With Reputation-Based Hybrid Smart Contracts},
+  projects={greendigit},
+  author={Hewage, Tharindu B. and Ilager, Shashikant and Rodriguez Read, Maria and Buyya, Rajkumar},
+  title={Aging-Aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference},
+  booktitle={Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems (e-Energy)},
   year={2025},
-  volume={18},
-  number={6},
-  pages={3810--3823},
-  keywords={Reliability; Servers; Blockchains; Mobile handsets; Quality of service; Engines; Smart contracts; Time factors; Reliability theory; Consensus protocol; Edge offloading; reputation; hybrid smart contract (HSC); satisfiability modulo theory (SMT)},
-  doi={10.1109/TSC.2025.3609833},
-  html={https://ieeexplore.ieee.org/abstract/document/11164487},
-  pdf={publications/fresco_tsc_2025.pdf},
-  code={https://github.com/jzilic1991/hybrid-edge-blockchain}
+  html={https://arxiv.org/abs/2501.15829},
+  code={https://github.com/tharindu-b-hewage/splitwise-sim-cpu-carbon},
+  pdf={publications/aging_aware_eenergy_25.pdf}
 }
 
+@inproceedings{danielse2025serverless,
+  bibtex_show={true},
+  workshop={true},
+  author={Daniëlse, Paul and Tai, Han Liang and Ilager, Shashikant and Zhao, Zhiming},
+  title={Investigating Efficient Edge Offloading Architectures for Serverless Systems},
+  booktitle={Intel4EC Workshop, co-located with IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
+  year={2025}
+}
+
+@inproceedings{danielse2025knowledge,
+  bibtex_show={true},
+  author={Daniëlse, Paul and Ilager, Shashikant and Zhao, Zhiming},
+  title={Towards Knowledge Retrieval for Agentic Systems in Cloud: Learning, Analysis and Control},
+  booktitle={International Joint Conference on Knowledge Graphs (IJCKG 2025)},
+  year={2025},
+  pages={453--460}
+}
 
 @article{hewage_carbon_toc25,
   bibtex_show={true},
-  title={A Framework for Carbon-Aware Real-Time Workload Management in Clouds Using Renewables-Driven Cores},
+  projects={greendigit},
   author={Hewage, Tharindu B. and Ilager, Shashikant and Rodriguez, Maria A. and Buyya, Rajkumar},
-  journal={IEEE Transactions on Computers},
+  title={A Framework for Carbon-Aware Real-Time Workload Management in Clouds Using Renewables-Driven Cores},
+  journal={IEEE Transactions on Computers (ToC)},
   volume={74},
   number={8},
   pages={2757--2771},
@@ -416,44 +161,405 @@ https://ieeexplore.ieee.org/abstract/document/11164487/
   pdf={publications/carbon_aware_toc_25.pdf}
 }
 
-
-
-@inproceedings{maliakel2025investigatingenergyefficiencyperformance,
+@article{zilic2025fresco,
   bibtex_show={true},
-  title={Characterizing LLM Inference Energy-Performance Tradeoffs across  Workloads and GPU Scaling}, 
-  author={Paul Joe Maliakel and Shashikant Ilager and Ivona Brandic},
-  year={2026},
-  eprint={2501.08219},
-  archivePrefix={arXiv},
-  booktitle={Proceedings of the 26th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)},
-  primaryClass={cs.LG},
-  html={https://arxiv.org/abs/2501.08219}, 
-  pdf={publications/LLM_charecterization_ccgrid_2026.pdf}
+  author={Zilic, Josip and De Maio, Vincenzo and Ilager, Shashikant and Brandic, Ivona},
+  journal={IEEE Transactions on Services Computing (TSC)},
+  title={FRESCO: Fast and Reliable Edge Offloading With Reputation-Based Hybrid Smart Contracts},
+  year={2025},
+  volume={18},
+  number={6},
+  pages={3810--3823},
+  doi={10.1109/TSC.2025.3609833},
+  html={https://ieeexplore.ieee.org/abstract/document/11164487},
+  pdf={publications/fresco_tsc_2025.pdf},
+  code={https://github.com/jzilic1991/hybrid-edge-blockchain}
 }
 
-@article{ziller2026greenserv,
+@article{dynasplit2025,
   bibtex_show={true},
-  title={GreenServ: Energy-Efficient Context-Aware Dynamic Routing for Multi-Model LLM Inference}, 
-  author={Thomas Ziller and Shashikant Ilager and Alessandro Tundo and Ezio Bartocci and Leonardo Mariani and Ivona Brandic},
-  year={2026},
-  journal={arXiv preprint arXiv:2601.17551},
-  eprint={2601.17551},
-  archivePrefix={arXiv},
-  primaryClass={cs.PF},
-  html={https://arxiv.org/abs/2601.17551},
-  pdf={publications/greenserv_2026.pdf}
+  author={May, Daniel and Tundo, Alessandro and Ilager, Shashikant and Brandic, Ivona},
+  title={DynaSplit: A Hardware-Software Co-Design Framework for Energy-Aware Inference on Edge},
+  journal={arXiv preprint arXiv:2410.23881},
+  year={2024},
+  html={https://doi.org/10.48550/arXiv.2410.23881},
+  pdf={publications/dynasplit_25.pdf}
 }
 
-@inproceedings{JianlongLei2026ARKV,
+@inproceedings{wen2025drlbpss,
   bibtex_show={true},
-  title={ARKV: Adaptive and Resource-Efficient KV Cache Management under Limited Memory Budget for Long-Context Inference in LLMs}, 
-  author={Jianlong Lei and Shashikant Ilager},
-  year={2026}, 
-  booktitle={Proceedings of the 26th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)},
-  html={https://arxiv.org/abs/2501.08219}, 
-  pdf={publications/ARKV_CCGRID_2026.pdf},
-  code = {https://github.com/Large-scale-Sustainable-Computing-LSC/ARKV}
+  hidden={true},
+  author={Wen, Ruijie and Xiong, Bo and Ou, Jinhui and Ilager, Shashikant and Tian, Wenhong},
+  title={DRLBPSS: Deep Reinforcement Learning-Based Parallel Strategy Search with Inference Acceleration for Large Language Models},
+  booktitle={2025 11th International Conference on Computer and Communications (ICCC)},
+  year={2025}
+}
+
+@article{szydlo2025benchmarking,
+  bibtex_show={true},
+  hidden={true},
+  author={Szydlo, Tomasz and Horbanov, Viacheslav and Jha, Devki Nandan and Ilager, Shashikant and Slominski, Aleksander and Ranjan, Rajiv},
+  title={Benchmarking of CPU-intensive Stream Data Processing in The Edge Computing Systems},
+  journal={arXiv preprint arXiv:2505.07755},
+  year={2025},
+  eprint={2505.07755},
+  html={https://arxiv.org/abs/2505.07755}
 }
 
 
+% -----------------------------------------------------------------------
+% 2024
+% -----------------------------------------------------------------------
 
+@INPROCEEDINGS{meerzhan_abbvsm_icsoc24,
+  bibtex_show={true},
+  author={Kanatbekova, Meerzhan and Ilager, Shashikant and Brandic, Ivona},
+  title={ABBA-VSM: Time Series Classification Using Symbolic Representation on the Edge},
+  booktitle={International Conference on Service-Oriented Computing (ICSOC 2024), Tunis, Tunisia},
+  year={2024},
+  pages={38--53},
+  pdf={publications/abbavsm_icsoc24.pdf}
+}
+
+@INPROCEEDINGS{chu2024genericmlworkloadshpc,
+  bibtex_show={true},
+  author={Chu, Xiaoyu and Hofstätter, Daniel and Ilager, Shashikant and Talluri, Sacheendra and Kampert, Duncan and Podareanu, Damian and Duplyakin, Dmitry and Brandic, Ivona and Iosup, Alexandru},
+  title={Generic and ML Workloads in an HPC Datacenter: Node Energy, Job Failures, and Node-Job Analysis},
+  booktitle={30th IEEE International Conference on Parallel and Distributed Systems (ICPADS 2024)},
+  year={2024},
+  eprint={2409.08949},
+  html={https://arxiv.org/abs/2409.08949}
+}
+
+@INPROCEEDINGS{maliakel2024fligan,
+  bibtex_show={true},
+  workshop={true},
+  author={Maliakel, Paul Joe and Ilager, Shashikant and Brandic, Ivona},
+  title={FLIGAN: Enhancing Federated Learning with Incomplete Data using GAN},
+  booktitle={ACM 7th International Workshop on Edge Systems, Analytics and Networking (EdgeSys 2024), co-located with EuroSys},
+  year={2024},
+  eprint={2403.16930},
+  html={https://arxiv.org/abs/2403.16930},
+  pdf={publications/fligan_edgesys_24.pdf}
+}
+
+@INPROCEEDINGS{ilager2024proteus,
+  bibtex_show={true},
+  workshop={true},
+  author={Ilager, Shashikant and Balouek, Daniel and Kaddour, Sidi Mohammed and Brandic, Ivona},
+  title={Proteus: Towards Intent-Driven Automated Resource Management Framework for Edge Sensor Nodes},
+  booktitle={14th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures (FlexScience 2024), in conjunction with HPDC 2024, Pisa, Italy},
+  year={2024}
+}
+
+@article{buyya2024energyefficiency,
+  bibtex_show={true},
+  author={Buyya, Rajkumar and Ilager, Shashikant and Arroba, Patricia},
+  title={Energy-efficiency and Sustainability in New Generation Cloud Computing: A Vision and Directions for Integrated Management of Data Centre Resources and Workloads},
+  journal={Software: Practice and Experience (SPE)},
+  year={2024},
+  doi={10.1002/spe.3305},
+  html={https://onlinelibrary.wiley.com/doi/10.1002/spe.3305}
+}
+
+@article{hewage2024cloudsimexpress,
+  bibtex_show={true},
+  author={Hewage, Tharindu B. and Ilager, Shashikant and Rodriguez, Maria A. and Buyya, Rajkumar},
+  title={CloudSim Express: A Novel Framework for Rapid Low Code Simulation of Cloud Computing Environments},
+  journal={Software: Practice and Experience (SPE)},
+  year={2024},
+  doi={10.1002/spe.3348},
+  html={https://onlinelibrary.wiley.com/doi/10.1002/spe.3348}
+}
+
+@INPROCEEDINGS{akbari2024icontinuum,
+  bibtex_show={true},
+  author={Akbari, Nima and Toosi, Adel N. and Grundy, John and Khalajzadeh, Hourieh and Aslanpour, Mohammad Sadegh and Ilager, Shashikant},
+  title={iContinuum: An Emulation Toolkit for Intent-based Computing across the Edge-to-Cloud Continuum},
+  booktitle={2024 IEEE International Conference on Cloud Computing (CLOUD)},
+  year={2024},
+  html={https://ieeexplore.ieee.org/document/10636356}
+}
+
+@INPROCEEDINGS{ilager2024taxonomy_fedcsis,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Buyya, Rajkumar},
+  title={Machine Learning in Energy and Thermal-Aware Resource Management of Cloud Data Centers: A Taxonomy and Future Directions},
+  booktitle={2024 19th Conference on Computer Science and Intelligence Systems (FedCSIS)},
+  year={2024}
+}
+
+
+% -----------------------------------------------------------------------
+% 2023
+% -----------------------------------------------------------------------
+
+@INPROCEEDINGS{ilager_dc_analysis_UCC23,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Toosi, Adel N. and Jha, Mayak Raj and Brandic, Ivona and Buyya, Rajkumar},
+  title={A Data-driven Analysis of a Cloud Data Center: Statistical Characterization of Workload, Energy and Temperature},
+  booktitle={IEEE/ACM 16th International Conference on Utility and Cloud Computing (UCC 2023), Messina, Italy},
+  year={2023},
+  doi={10.1145/3603166.3632137},
+  pdf={publications/UCC_23_data_center_analysis.pdf},
+  code={https://github.com/shashikantilager/data-center-characterization},
+  highlight={true},
+  highlight_note={Best Paper Award, UCC 2023}
+}
+
+@inproceedings{allesandro_ase23,
+  bibtex_show={true},
+  author={Tundo, Alessandro and Mobilio, Marco and Ilager, Shashikant and Brandic, Ivona and Bartocci, Ezio and Mariani, Leonardo},
+  title={An Energy-Aware Approach to Design Self-Adaptive AI-based Applications on the Edge},
+  booktitle={Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023), Kirchberg, Luxembourg},
+  year={2023},
+  publisher={Association for Computing Machinery},
+  doi={10.1109/ASE56229.2023.00039},
+  html={https://ieeexplore.ieee.org/document/10298428},
+  pdf={publications/selfadaptive_ASE_23.pdf},
+  code={https://gitlab.com/sustainable-continuum-monitoring/self-adaptive-moop}
+}
+
+@inproceedings{daniel_europar23,
+  bibtex_show={true},
+  author={Hofstätter, Daniel and Ilager, Shashikant and Lujic, Ivan and Brandic, Ivona},
+  title={SymED: Adaptive and Online Symbolic Representation of Data on the Edge},
+  booktitle={Proceedings of the 29th International European Conference on Parallel and Distributed Computing (Euro-Par 2023), Limassol, Cyprus},
+  year={2023},
+  organization={Springer},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-39698-4_28},
+  pdf={publications/europar_symed_23.pdf},
+  eprint={2309.03014},
+  code={https://github.com/hpc-tuwien/symed},
+  highlight={true},
+  highlight_note={Young Researcher Award to Daniel, Euro-Par 2023}
+}
+
+@INPROCEEDINGS{tharindu_cloud_23,
+  bibtex_show={true},
+  author={Hewage, Tharindu B. and Ilager, Shashikant and Rodriguez, Maria A. and Arroba, Patricia and Buyya, Rajkumar},
+  title={DEMOTS: A Decentralized Task Scheduling Algorithm for Micro-Clouds with Dynamic Power-Budgets},
+  booktitle={2023 IEEE 16th International Conference on Cloud Computing (CLOUD)},
+  year={2023},
+  pages={418--427},
+  doi={10.1109/CLOUD60044.2023.00057},
+  html={https://ieeexplore.ieee.org/abstract/document/10255015},
+  pdf={publications/DEMOTS_cloud_23.pdf}
+}
+
+@INPROCEEDINGS{ilager_iedge_23,
+  bibtex_show={true},
+  author={Ilager, Shashikant and De Maio, Vincenzo and Lujic, Ivan and Brandic, Ivona},
+  title={Data-Centric Edge-AI: A Symbolic Representation Use Case},
+  booktitle={2023 IEEE International Conference on Edge Computing and Communications (EDGE)},
+  year={2023},
+  pages={301--308},
+  doi={10.1109/EDGE60047.2023.00052},
+  html={https://ieeexplore.ieee.org/abstract/document/10234261},
+  pdf={publications/datacentricedge_iedge_23.pdf}
+}
+
+
+% -----------------------------------------------------------------------
+% 2022
+% -----------------------------------------------------------------------
+
+@article{DBLP:journals/tmc/Tuli_ilager_TMC22,
+  bibtex_show={true},
+  author={Tuli, Shreshth and Ilager, Shashikant and Ramamohanarao, Kotagiri and Buyya, Rajkumar},
+  title={Dynamic Scheduling for Stochastic Edge-Cloud Computing Environments Using {A3C} Learning and Residual Recurrent Neural Networks},
+  journal={{IEEE} Transactions on Mobile Computing (TMC)},
+  volume={21},
+  number={3},
+  pages={940--954},
+  year={2022},
+  doi={10.1109/TMC.2020.3017079},
+  html={https://ieeexplore.ieee.org/document/9169832},
+  pdf={publications/rlscheduling_tmc_22.pdf},
+  eprint={2009.02186},
+  code={https://github.com/Cloudslab/DLSF}
+}
+
+@article{khan_ilager_FGCS22,
+  bibtex_show={true},
+  author={Khan, Tahseen and Tian, Wenhong and Ilager, Shashikant and Buyya, Rajkumar},
+  title={Workload Forecasting and Energy State Estimation in Cloud Data Centres: ML-Centric Approach},
+  journal={Future Generation Computer Systems (FGCS)},
+  volume={128},
+  pages={320--332},
+  year={2022},
+  doi={10.1016/j.future.2021.10.019},
+  html={https://www.sciencedirect.com/science/article/pii/S0167739X21004155},
+  pdf={publications/workloadforecast_fgcs_22.pdf}
+}
+
+@article{khan_ilager_jnca22,
+  bibtex_show={true},
+  author={Khan, Tahseen and Tian, Wenhong and Zhou, Guangyao and Ilager, Shashikant and Gong, Mingming and Buyya, Rajkumar},
+  title={Machine Learning (ML)-Centric Resource Management in Cloud Computing: A Review and Future Directions},
+  journal={Journal of Network and Computer Applications (JNCA)},
+  volume={204},
+  pages={103405},
+  year={2022},
+  doi={10.1016/j.jnca.2022.103405},
+  html={https://www.sciencedirect.com/science/article/pii/S1084804522000649},
+  pdf={publications/mlcentricreview_jnca_22.pdf}
+}
+
+@ARTICLE{XU_ilager_TNSM22,
+  bibtex_show={true},
+  author={Xu, Minxian and Song, Chenghao and Ilager, Shashikant and Gill, Sukhpal Singh and Zhao, Juanjuan and Ye, Kejiang and Xu, Chengzhong},
+  title={CoScal: Multifaceted Scaling of Microservices With Reinforcement Learning},
+  journal={IEEE Transactions on Network and Service Management (TNSM)},
+  year={2022},
+  volume={19},
+  number={4},
+  pages={3995--4009},
+  doi={10.1109/TNSM.2022.3210211},
+  html={https://ieeexplore.ieee.org/document/9904920},
+  pdf={publications/coscal_tnsm_22.pdf}
+}
+
+@INPROCEEDINGS{ilagerdemon_UCC22,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Fahringer, Jakob and Dias, Samuel Carlos de Lima and Brandic, Ivona},
+  title={DEMon: Decentralized Monitoring for Highly Volatile Edge Environments},
+  booktitle={2022 IEEE/ACM 15th International Conference on Utility and Cloud Computing (UCC), Vancouver, Washington, USA},
+  year={2022},
+  pages={145--150},
+  doi={10.1109/UCC56403.2022.00026},
+  html={https://ieeexplore.ieee.org/document/10061772},
+  pdf={publications/demon_ucc_22.pdf},
+  code={https://github.com/hpc-tuwien/DEMon}
+}
+
+
+% -----------------------------------------------------------------------
+% 2021
+% -----------------------------------------------------------------------
+
+@article{DBLP:journals/tpds/Ilager_TPDS21,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Ramamohanarao, Kotagiri and Buyya, Rajkumar},
+  title={Thermal Prediction for Efficient Energy Management of Clouds Using Machine Learning},
+  journal={{IEEE} Transactions on Parallel and Distributed Systems (TPDS)},
+  volume={32},
+  number={5},
+  pages={1044--1056},
+  year={2021},
+  doi={10.1109/TPDS.2020.3040800},
+  html={https://ieeexplore.ieee.org/document/9272657},
+  pdf={publications/thermalprediction_tpds_21.pdf}
+}
+
+
+% -----------------------------------------------------------------------
+% 2020
+% -----------------------------------------------------------------------
+
+@inproceedings{DBLP:conf/ccgrid/Ilager_CCGRID20,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Muralidhar, Rajeev and Ramamohanarao, Kotagiri and Buyya, Rajkumar},
+  title={A Data-Driven Frequency Scaling Approach for Deadline-Aware Energy Efficient Scheduling on Graphics Processing Units ({GPUs})},
+  booktitle={20th {IEEE/ACM} International Symposium on Cluster, Cloud and Internet Computing (CCGRID 2020), Melbourne, Australia},
+  pages={579--588},
+  year={2020},
+  doi={10.1109/CCGrid49817.2020.00-35},
+  html={https://ieeexplore.ieee.org/document/9139707},
+  pdf={publications/DDVFS_ccgrid_20.pdf},
+  code={https://github.com/shashikantilager/gpu-ddvfs},
+  highlight={true},
+  highlight_note={Best Paper Award, CCGRID 2020}
+}
+
+@inproceedings{DBLP:journals/corr/ilager_CloudSummit2020,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Muralidhar, Rajeev and Buyya, Rajkumar},
+  title={Artificial Intelligence ({AI})-Centric Management of Resources in Modern Distributed Computing Systems},
+  booktitle={2020 IEEE Cloud Summit},
+  year={2020},
+  pages={1--10},
+  doi={10.1109/IEEECloudSummit48914.2020.00007},
+  html={https://ieeexplore.ieee.org/document/9283696},
+  pdf={publications/AICentric_cloudsummit_21.pdf}
+}
+
+
+% -----------------------------------------------------------------------
+% 2019
+% -----------------------------------------------------------------------
+
+@article{DBLP:journals/concurrency/Ilager_CCPE_19,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Ramamohanarao, Kotagiri and Buyya, Rajkumar},
+  title={{ETAS:} Energy and Thermal-Aware Dynamic Virtual Machine Consolidation in Cloud Data Center with Proactive Hotspot Mitigation},
+  journal={Concurrency and Computation: Practice and Experience (CCPE)},
+  volume={31},
+  number={17},
+  year={2019},
+  doi={10.1002/cpe.5221},
+  html={https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5221},
+  pdf={publications/ETAS-ccpe_19.pdf}
+}
+
+
+% -----------------------------------------------------------------------
+% 2017
+% -----------------------------------------------------------------------
+
+@inproceedings{DBLP:conf/icdcn/Ilager_ICDCN17,
+  bibtex_show={true},
+  author={Ilager, Shashikant and Sai Prasad, P. S. V. S.},
+  title={Scalable {MapReduce}-based Fuzzy Min-Max Neural Network for Pattern Classification},
+  booktitle={Proceedings of the 18th International Conference on Distributed Computing and Networking (ICDCN), Hyderabad, India},
+  pages={15},
+  year={2017},
+  doi={10.1145/3007748.3007776},
+  html={https://dl.acm.org/doi/10.1145/3007748.3007776},
+  pdf={publications/scalablefmnn_icdcn_17.pdf},
+  code={https://github.com/shashikantilager/MRFMNN}
+}
+
+
+% -----------------------------------------------------------------------
+% Book Chapters  (hidden from main list; rendered separately at page bottom)
+% -----------------------------------------------------------------------
+
+@incollection{goudarzi2022cloudiot,
+  bibtex_show={true},
+  hidden={true},
+  author={Goudarzi, Mohammad and Ilager, Shashikant and Buyya, Rajkumar},
+  title={Cloud Computing and Internet of Things: Recent Trends and Directions},
+  booktitle={New Frontiers in Cloud Computing and Internet of Things},
+  editor={Buyya, Rajkumar and Garg, Lalit and Fortino, Giancarlo and Misra, Sudip},
+  pages={3--29},
+  publisher={Springer},
+  address={Switzerland},
+  year={2022},
+  isbn={978-3-031-05527-0}
+}
+
+@incollection{xu2020greenaware,
+  bibtex_show={true},
+  hidden={true},
+  author={Xu, Minxian and Gao, Chengxi and Ilager, Shashikant and Wu, Huaming and Xu, Chengzhong and Buyya, Rajkumar},
+  title={Green-aware Mobile Edge Computing for {IoT}: Challenges, Solutions and Future Directions},
+  booktitle={Mobile Edge Computing ({MEC})},
+  editor={Mukherjee, Amrit and others},
+  publisher={Springer},
+  address={USA},
+  year={2020}
+}
+
+@incollection{ilager2019gpupaas,
+  bibtex_show={true},
+  hidden={true},
+  author={Ilager, Shashikant and Wankar, Rajeev and Kune, Raghavendra and Buyya, Rajkumar},
+  title={{GPU} {PaaS} Computation Model in Aneka Cloud Computing Environments},
+  booktitle={Smart Data: State-of-the-Art Perspectives in Computing and Applications},
+  editor={Li, Kuan-Ching and others},
+  publisher={Chapman \& Hall/{CRC} Press},
+  address={USA},
+  year={2019},
+  isbn={978-1138545588}
+}

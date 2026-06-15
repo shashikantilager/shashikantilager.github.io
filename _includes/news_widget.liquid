@@ -1,0 +1,25 @@
+{% if site.news != blank %}
+  {% assign news_items = site.news | reverse %}
+  <section class="news-widget">
+    <div class="news-widget-header">
+      <h2 class="section-heading">Recent News</h2>
+      <a href="{{ '/news/' | relative_url }}" class="news-all-link">All news &rarr;</a>
+    </div>
+    <div class="news-widget-scroll">
+      <ul class="news-widget-list">
+        {% for item in news_items %}
+          <li class="news-widget-item">
+            <span class="news-widget-date">{{ item.date | date: '%b %Y' }}</span>
+            <span class="news-widget-content">
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+{% endif %}

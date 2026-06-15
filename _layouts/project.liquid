@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% assign p = page %}
+
+<div class="project-detail">
+
+  <div class="pd-header">
+    <h1 class="pd-title">{{ p.title }}</h1>
+    {% if p.subtitle %}<p class="pd-subtitle">{{ p.subtitle }}</p>{% endif %}
+
+    <dl class="pd-meta-list">
+      {% if p.year %}
+        <div class="pd-meta-row">
+          <dt>Duration</dt>
+          <dd>{{ p.year }}</dd>
+        </div>
+      {% endif %}
+      {% if p.funder %}
+        <div class="pd-meta-row">
+          <dt>Funder</dt>
+          <dd>
+            {% if p.funder_logo %}
+              <img src="{{ '/assets/img/funders/' | append: p.funder_logo | relative_url }}" alt="{{ p.funder }}" class="pd-inline-logo">
+            {% endif %}
+            {{ p.funder }}
+          </dd>
+        </div>
+      {% endif %}
+      {% if p.grant_number %}
+        <div class="pd-meta-row">
+          <dt>Funding Call</dt>
+          <dd class="pd-mono">{{ p.grant_number }}</dd>
+        </div>
+      {% endif %}
+      {% if p.budget or p.amount %}
+        <div class="pd-meta-row">
+          <dt>Budget</dt>
+          <dd>{{ p.budget | default: p.amount }}</dd>
+        </div>
+      {% endif %}
+      {% if p.role %}
+        <div class="pd-meta-row">
+          <dt>Role</dt>
+          <dd class="{% if p.role contains 'PI' or p.role contains 'Coordinator' %}pd-role-pi{% endif %}">{{ p.role }}</dd>
+        </div>
+      {% endif %}
+      <div class="pd-meta-row">
+        <dt>Project Website</dt>
+        <dd>
+          {% assign proj_url = p.link | default: p.website %}
+          {% if proj_url %}
+            <a href="{{ proj_url }}" target="_blank" rel="noopener">{{ proj_url }} ↗</a>
+          {% else %}
+            <span class="pd-tba">TBA</span>
+          {% endif %}
+        </dd>
+      </div>
+    </dl>
+  </div>
+
+  {% if content != "" %}
+    <div class="pd-abstract">
+      <h2 class="pd-abstract-heading">Abstract</h2>
+      {{ content }}
+    </div>
+  {% endif %}
+
+</div>

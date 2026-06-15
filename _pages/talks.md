@@ -4,12 +4,16 @@ permalink: /talks/
 title: Talks
 description: 
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <a id="talks"></a>
 <!-- TODO SIG -->
 
+
+- **Invited Talk:** "Green AI in Practice: Runtime Optimization for Energy-Efficient LLM Inference", DisNet Lab, University of Melbourne, Australia (online), Jun 2026. *Host*: [Dr. Adel N. Toosi](https://adelnadjarantoosi.info)
+
+- **Interactive Session:** "GreenDIGIT Tools and Methods for Environmental Impact Assessment and Sustainability Metrics in Research Computing Infrastructure", [SC4RC 2026 — Sustainability Conference for Responsible Research Computing](https://www.sc4rc.org/), Geneva, Switzerland, May 2026. \| [Link](https://indico.cern.ch/event/1526482/contributions/7031004/)
 
 - **Invited Talk:** "Towards Sustainable AI: Optimizing Energy and Carbon Footprints in Large-Scale LLM Workloads", DREAMS Lab, @Indian Institute of Science, Bangalore, India, Jan 2026.  *Host*: [Prof. Yogesh Simmhan](https://cds.iisc.ac.in/faculty/simmhan/)
 

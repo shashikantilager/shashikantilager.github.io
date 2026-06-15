@@ -1032,3 +1032,119 @@ a.grant-title, span.grant-title {
   color: var(--global-text-color-light);
   margin: 0 0 0.7rem;
 }
+
+// Supervision / Team page
+.sv-list {
+  margin: 0.5rem 0 2rem;
+}
+
+.sv-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.88rem;
+  line-height: 1.5;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &.sv-row-done {
+    opacity: 0.75;
+  }
+}
+
+.sv-row-name {
+  font-weight: 700;
+  color: var(--global-text-color);
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 200px;
+}
+
+.sv-row-body {
+  color: var(--global-text-color-light);
+  flex: 1;
+}
+
+.sv-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &.sv-badge-current {
+    background: rgba(var(--global-theme-color-rgb, 181, 9, 172), 0.1);
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+  }
+
+  &.sv-badge-done {
+    background: var(--global-divider-color);
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-divider-color);
+  }
+}
+
+.sv-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 0.8rem;
+
+  th {
+    text-align: left;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--global-text-color-light);
+    border-bottom: 2px solid var(--global-divider-color);
+    padding: 0.4rem 0.6rem 0.4rem 0;
+  }
+
+  td {
+    padding: 0.5rem 0.6rem 0.5rem 0;
+    vertical-align: top;
+    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    line-height: 1.5;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  .sv-td-name {
+    font-weight: 600;
+    white-space: nowrap;
+    padding-right: 1rem;
+  }
+
+  .sv-td-year {
+    white-space: nowrap;
+    color: var(--global-text-color-light);
+    padding-right: 1rem;
+  }
+
+  .sv-td-pub a {
+    font-size: 0.78rem;
+  }
+}
+
+.sv-invite {
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
+  border-left: 3px solid var(--global-divider-color);
+  padding: 0.6rem 1rem;
+  margin-bottom: 1.2rem;
+  font-style: italic;
+  line-height: 1.6;
+}

@@ -12,7 +12,7 @@ funder: EU Horizon Europe
 funder_key: eu-horizon
 funder_logo: eu-horizon.svg
 tags: [Sustainability, Green Computing, HPC, Cloud, Research Infrastructure]
-grant_number: "101135996"
+grant_number: "HORIZON-INFRA-2023-TECH-01-01"
 budget: "€5M"
 website: https://greendigit-project.eu/
 pub_tag: greendigit

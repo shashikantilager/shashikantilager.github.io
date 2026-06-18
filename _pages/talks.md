@@ -11,6 +11,8 @@ nav_order: 5
 <!-- TODO SIG -->
 
 
+- **Invited Talk:** "Green AI in Practice: Runtime Optimization for Energy-Efficient LLM Inference", [Academic Salon on Networked Systems and AI](https://academic.salon.net.cit.tum.de/2026/), LRZ — Leibniz Supercomputing Centre, Garching near Munich, Germany, Jun 2026. *Host*: Technical University of Munich
+
 - **Invited Talk:** "Green AI in Practice: Runtime Optimization for Energy-Efficient LLM Inference", DisNet Lab, University of Melbourne, Australia (online), Jun 2026. *Host*: [Dr. Adel N. Toosi](https://adelnadjarantoosi.info)
 
 - **Interactive Session:** "GreenDIGIT Tools and Methods for Environmental Impact Assessment and Sustainability Metrics in Research Computing Infrastructure", [SC4RC 2026 — Sustainability Conference for Responsible Research Computing](https://www.sc4rc.org/), Geneva, Switzerland, May 2026. \| [Link](https://indico.cern.ch/event/1526482/contributions/7031004/)

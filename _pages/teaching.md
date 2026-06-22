@@ -21,7 +21,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 #### 2025
 
 ##### **[Large Systems](https://datanose.nl/#course[137418]/publishedmanual)**, Semester 1, Period 2
-*Lecturer/Teacher, University of Amsterdam, Netherlands*
+*Coordinator/Lecturer, University of Amsterdam, Netherlands*
 - Course enhancements for 2025:
   - Introduction to Kubernetes for container orchestration and automation
   - Infrastructure as Code practices using Terraform

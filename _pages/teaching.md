@@ -14,7 +14,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 #### 2026
 
-##### **Semester 2, Period 4-5, 2026: Connecting Your Digital World**
+##### **Semester 2, Period 4-5, 2026: [Connecting Your Digital World](https://datanose.nl/Course/Manual/129140/Connecting%20your%20Digital%20World/2026)**
 *Coordinator/Lecturer, University of Amsterdam, Netherlands*
 
 
@@ -28,7 +28,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
   - New capstone group project: end-to-end infrastructure creation, deployment, and management of cloud-native microservice application
 
 
-##### **Semester 2, Period 4-5, 2025: Connecting Your Digital World**
+##### **Semester 2, Period 4-5, 2025: [Connecting Your Digital World](https://datanose.nl/Course/Manual/129140/Connecting%20your%20Digital%20World/2025)**
 *Coordinator/Lecturer, University of Amsterdam, Netherlands*
 - This course is part of the Bachelor program [Science, Technology & Innovation (ST&I)](https://studiegids.uva.nl/xmlpages/page/2024-2025/zoek-vak/vak/119932), College of Science.
 - The main goal of the course is to teach students how modern web applications are designed, developed, and operated. Specifically, it covers:

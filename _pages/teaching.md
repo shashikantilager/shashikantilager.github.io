@@ -14,13 +14,13 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 #### 2026
 
-##### **Semester 2, Period 4-5, 2026: [Connecting Your Digital World](https://datanose.nl/Course/Manual/129140/Connecting%20your%20Digital%20World/2026)**
+##### **[Connecting Your Digital World](https://datanose.nl/Course/Manual/129140/Connecting%20your%20Digital%20World/2026)**, Semester 2, Period 4-5
 *Coordinator/Lecturer, University of Amsterdam, Netherlands*
 
 
 #### 2025
 
-##### **Semester 1, Period 2, 2025: [Large Systems](https://datanose.nl/#course[137418]/publishedmanual)**
+##### **[Large Systems](https://datanose.nl/#course[137418]/publishedmanual)**, Semester 1, Period 2
 *Lecturer/Teacher, University of Amsterdam, Netherlands*
 - Course enhancements for 2025:
   - Introduction to Kubernetes for container orchestration and automation
@@ -28,7 +28,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
   - New capstone group project: end-to-end infrastructure creation, deployment, and management of cloud-native microservice application
 
 
-##### **Semester 2, Period 4-5, 2025: [Connecting Your Digital World](https://datanose.nl/Course/Manual/129140/Connecting%20your%20Digital%20World/2025)**
+##### **[Connecting Your Digital World](https://datanose.nl/Course/Manual/129140/Connecting%20your%20Digital%20World/2025)**, Semester 2, Period 4-5
 *Coordinator/Lecturer, University of Amsterdam, Netherlands*
 - This course is part of the Bachelor program [Science, Technology & Innovation (ST&I)](https://studiegids.uva.nl/xmlpages/page/2024-2025/zoek-vak/vak/119932), College of Science.
 - The main goal of the course is to teach students how modern web applications are designed, developed, and operated. Specifically, it covers:
@@ -41,7 +41,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 #### 2024
 
-##### **Semester 1, Period 2, 2024: Large Systems**
+##### **Large Systems**, Semester 1, Period 2
 *Lecturer/Teacher, University of Amsterdam, Netherlands*
 - This is the first course I am teaching after joining UvA, which is a [Master's SNE](https://www.uva.nl/shared-content/programmas/en/masters/security-and-network-engineering/security-and-network-engineering.html?origin=znSrDUT%2BQ5uz6dso72fBmw) course.
 - The course covers:

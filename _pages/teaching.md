@@ -20,7 +20,7 @@ I have been actively involved in [Teaching](#teaching)  activities. The details 
 
 #### 2025
 
-##### **Semester 1, Period 2, 2025: Large Systems**
+##### **Semester 1, Period 2, 2025: [Large Systems](https://datanose.nl/#course[137418]/publishedmanual)**
 *Lecturer/Teacher, University of Amsterdam, Netherlands*
 - Course enhancements for 2025:
   - Introduction to Kubernetes for container orchestration and automation

@@ -30,7 +30,6 @@ nav_order: 2
             <img src="{{ '/assets/img/funders/' | append: p.funder_logo | relative_url }}" alt="{{ p.funder }}" class="proj-funder-logo">
           {% endif %}
           <span class="proj-funder-name">{{ p.funder }}</span>
-          {% if p.budget or p.amount %}<span class="proj-amount">({{ p.budget | default: p.amount }})</span>{% endif %}
         </div>
         {% if p.role %}
           <div class="proj-role-line">

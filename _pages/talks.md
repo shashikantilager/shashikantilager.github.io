@@ -11,6 +11,8 @@ nav_order: 5
 <!-- TODO SIG -->
 
 
+- **Invited Talk:** "Towards Green AI: Reducing the Environmental Footprint of LLM Workloads", [2nd Sustainable Computing for AI and Data-Intensive Infrastructures (MS1D)](https://pasc-conference.org/editions/pasc26/minisymposia/), PASC 2026, Bern, Switzerland, Jun 2026.
+
 - **Invited Talk:** "Green AI in Practice: Runtime Optimization for Energy-Efficient LLM Inference", [Academic Salon on Networked Systems and AI](https://academic.salon.net.cit.tum.de/2026/), Leibniz Supercomputing Centre, TU Munich, Germany, Jun 2026. *Host*: [Prof. Georg Carle](https://www.net.in.tum.de/members/carle/)
 
 - **Invited Talk:** "Green AI in Practice: Runtime Optimization for Energy-Efficient LLM Inference", DisNet Lab, University of Melbourne, Australia (online), Jun 2026. *Host*: [Dr. Adel N. Toosi](https://adelnadjarantoosi.info)

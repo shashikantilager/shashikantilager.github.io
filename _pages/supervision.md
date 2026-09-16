@@ -18,6 +18,8 @@ nav_order: 3
 
 ## Research Assistants / Postdocs
 
+- **Richard Harnisch**, *Student Research Assistant*, University of Amsterdam (UvA), Netherlands, September 2026 – present
+- **Jingpo XU**, *Research Assistant*, University of Amsterdam (UvA), Netherlands, September 2026 – present
 - **Adnan Tahir**, *Postdoc*, University of Amsterdam (UvA), Netherlands, 2025 – present
 - **Gonçalo Teixeira de Pinho Ferreira**, *Research Assistant*, University of Amsterdam (UvA), Netherlands, 2025 – 2026
 
